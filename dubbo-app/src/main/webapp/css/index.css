@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+
+a.rule{
+	font-size:16px;
+}
+
+
+body{
+	background-color: rgb(236, 240, 241);
+}
+
+
+/*首页风险评估部分*/
+.h2_title{
+	text-align: center;
+	font-size:24px;
+	margin: 20px 0;
+}
+
+.h_rep{
+	padding-top:10px;
+	padding-bottom:25px;
+	background:#fafbfb;
+}
+
+
+.h_rep h4{
+	width: 100%;
+	padding: 0 20px;
+}
+
+.h_rep p{
+	padding-left: 10px;
+	padding-right: 10px;
+    margin-bottom: 5px;
+}
+.h_rep h4 a.btn{
+	float: right;
+}
+
+/*首页健康日志*/
+.h_logs{
+	min-height: 300px;
+	width: 100%;
+	background:#fff;
+	padding-top: 30px;
+	padding-bottom:30px;
+}
+
+.h_logs p.txt{
+	text-align: left;
+	text-indent: 2em;
+	padding-right: 30px;
+    margin-bottom: 5px;
+}
+
+/*健康行动计划*/
+.h_sports{
+	min-height: 300px;
+	width: 100%;
+	background-color: #fafbfb;
+	padding-top: 30px;
+	padding-bottom:20px;
+}
+
+.h_sports p.txt{
+	text-align: left;
+	text-indent: 2em;
+	padding-right: 30px;
+    margin-bottom: 5px;
+}
+
+
+/*健康医师*/
+.h_doctor{
+	min-height: 200px;
+	width: 100%;
+	background-color: rgb(236, 240, 241);
+	padding: 20px 0;
+}
+.h_doctor img{
+	max-width: 90px;
+}
+.h_doctor h4{
+	text-align: center;
+	font-size: 16px;
+	padding: 2px 0;
+	margin: 5px 0;
+}
+.h_doctor p{
+	text-align: center;
+	font-size: 14px;
+	margin: 2px 0;
+}
+
+@media(max-width:768px;){
+	.h2_title{
+		font-size:22px;
+	}
+}

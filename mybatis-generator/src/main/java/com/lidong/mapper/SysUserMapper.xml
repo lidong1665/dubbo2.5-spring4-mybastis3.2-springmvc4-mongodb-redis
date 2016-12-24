@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lidong.dao.SysUserMapper" >
+  <resultMap id="BaseResultMap" type="com.lidong.entity.SysUser" >
+    <id column="userid" property="userid" jdbcType="VARCHAR" />
+    <result column="username" property="username" jdbcType="VARCHAR" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
+    <result column="sexid" property="sexid" jdbcType="VARCHAR" />
+    <result column="email" property="email" jdbcType="VARCHAR" />
+    <result column="truename" property="truename" jdbcType="VARCHAR" />
+    <result column="orgid" property="orgid" jdbcType="VARCHAR" />
+    <result column="state" property="state" jdbcType="VARCHAR" />
+    <result column="creattime" property="creattime" jdbcType="VARCHAR" />
+    <result column="createuserid" property="createuserid" jdbcType="VARCHAR" />
+    <result column="root" property="root" jdbcType="VARCHAR" />
+    <result column="menustr" property="menustr" jdbcType="VARCHAR" />
+    <result column="shortcutmenu" property="shortcutmenu" jdbcType="VARCHAR" />
+    <result column="telphone" property="telphone" jdbcType="VARCHAR" />
+    <result column="mastr" property="mastr" jdbcType="VARCHAR" />
+    <result column="mustr" property="mustr" jdbcType="VARCHAR" />
+    <result column="smtpemail" property="smtpemail" jdbcType="VARCHAR" />
+    <result column="smtp" property="smtp" jdbcType="VARCHAR" />
+    <result column="smtpport" property="smtpport" jdbcType="VARCHAR" />
+    <result column="emailpassword" property="emailpassword" jdbcType="VARCHAR" />
+    <result column="emailsingnature" property="emailsingnature" jdbcType="VARCHAR" />
+    <result column="birthday" property="birthday" jdbcType="VARCHAR" />
+    <result column="cardtypeid" property="cardtypeid" jdbcType="VARCHAR" />
+    <result column="cardno" property="cardno" jdbcType="VARCHAR" />
+    <result column="provid" property="provid" jdbcType="VARCHAR" />
+    <result column="citid" property="citid" jdbcType="VARCHAR" />
+    <result column="cyid" property="cyid" jdbcType="VARCHAR" />
+    <result column="postcoe" property="postcoe" jdbcType="VARCHAR" />
+    <result column="introduction" property="introduction" jdbcType="VARCHAR" />
+    <result column="unitname" property="unitname" jdbcType="VARCHAR" />
+    <result column="unitid" property="unitid" jdbcType="VARCHAR" />
+    <result column="address" property="address" jdbcType="VARCHAR" />
+    <result column="mobile" property="mobile" jdbcType="VARCHAR" />
+    <result column="defaultpanle" property="defaultpanle" jdbcType="VARCHAR" />
+    <result column="sysroleid" property="sysroleid" jdbcType="VARCHAR" />
+    <result column="parentuserid" property="parentuserid" jdbcType="VARCHAR" />
+    <result column="parentusername" property="parentusername" jdbcType="VARCHAR" />
+    <result column="orgestate" property="orgestate" jdbcType="VARCHAR" />
+    <result column="cusvisitnum" property="cusvisitnum" jdbcType="VARCHAR" />
+    <result column="cusformalnum" property="cusformalnum" jdbcType="VARCHAR" />
+    <result column="cusservicenum" property="cusservicenum" jdbcType="VARCHAR" />
+    <result column="manadocnum" property="manadocnum" jdbcType="VARCHAR" />
+    <result column="serviceunit" property="serviceunit" jdbcType="VARCHAR" />
+    <result column="docsummary" property="docsummary" jdbcType="VARCHAR" />
+    <result column="orgname" property="orgname" jdbcType="VARCHAR" />
+    <result column="firstnum" property="firstnum" jdbcType="VARCHAR" />
+    <result column="secondnum" property="secondnum" jdbcType="VARCHAR" />
+    <result column="intervenenum" property="intervenenum" jdbcType="VARCHAR" />
+    <result column="flupnum" property="flupnum" jdbcType="VARCHAR" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.lidong.entity.SysUser" extends="BaseResultMap" >
+    <result column="docpicroot" property="docpicroot" jdbcType="LONGVARBINARY" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    userid, username, password, sexid, email, truename, orgid, state, creattime, createuserid, 
+    root, menustr, shortcutmenu, telphone, mastr, mustr, smtpemail, smtp, smtpport, emailpassword, 
+    emailsingnature, birthday, cardtypeid, cardno, provid, citid, cyid, postcoe, introduction, 
+    unitname, unitid, address, mobile, defaultpanle, sysroleid, parentuserid, parentusername, 
+    orgestate, cusvisitnum, cusformalnum, cusservicenum, manadocnum, serviceunit, docsummary, 
+    orgname, firstnum, secondnum, intervenenum, flupnum
+  </sql>
+  <sql id="Blob_Column_List" >
+    docpicroot
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from sys_user
+    where userid = #{userid,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from sys_user
+    where userid = #{userid,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.lidong.entity.SysUser" >
+    insert into sys_user (userid, username, password, 
+      sexid, email, truename, 
+      orgid, state, creattime, 
+      createuserid, root, menustr, 
+      shortcutmenu, telphone, mastr, 
+      mustr, smtpemail, smtp, 
+      smtpport, emailpassword, emailsingnature, 
+      birthday, cardtypeid, cardno, 
+      provid, citid, cyid, 
+      postcoe, introduction, unitname, 
+      unitid, address, mobile, 
+      defaultpanle, sysroleid, parentuserid, 
+      parentusername, orgestate, cusvisitnum, 
+      cusformalnum, cusservicenum, manadocnum, 
+      serviceunit, docsummary, orgname, 
+      firstnum, secondnum, intervenenum, 
+      flupnum, docpicroot)
+    values (#{userid,jdbcType=VARCHAR}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+      #{sexid,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR}, #{truename,jdbcType=VARCHAR}, 
+      #{orgid,jdbcType=VARCHAR}, #{state,jdbcType=VARCHAR}, #{creattime,jdbcType=VARCHAR}, 
+      #{createuserid,jdbcType=VARCHAR}, #{root,jdbcType=VARCHAR}, #{menustr,jdbcType=VARCHAR}, 
+      #{shortcutmenu,jdbcType=VARCHAR}, #{telphone,jdbcType=VARCHAR}, #{mastr,jdbcType=VARCHAR}, 
+      #{mustr,jdbcType=VARCHAR}, #{smtpemail,jdbcType=VARCHAR}, #{smtp,jdbcType=VARCHAR}, 
+      #{smtpport,jdbcType=VARCHAR}, #{emailpassword,jdbcType=VARCHAR}, #{emailsingnature,jdbcType=VARCHAR}, 
+      #{birthday,jdbcType=VARCHAR}, #{cardtypeid,jdbcType=VARCHAR}, #{cardno,jdbcType=VARCHAR}, 
+      #{provid,jdbcType=VARCHAR}, #{citid,jdbcType=VARCHAR}, #{cyid,jdbcType=VARCHAR}, 
+      #{postcoe,jdbcType=VARCHAR}, #{introduction,jdbcType=VARCHAR}, #{unitname,jdbcType=VARCHAR}, 
+      #{unitid,jdbcType=VARCHAR}, #{address,jdbcType=VARCHAR}, #{mobile,jdbcType=VARCHAR}, 
+      #{defaultpanle,jdbcType=VARCHAR}, #{sysroleid,jdbcType=VARCHAR}, #{parentuserid,jdbcType=VARCHAR}, 
+      #{parentusername,jdbcType=VARCHAR}, #{orgestate,jdbcType=VARCHAR}, #{cusvisitnum,jdbcType=VARCHAR}, 
+      #{cusformalnum,jdbcType=VARCHAR}, #{cusservicenum,jdbcType=VARCHAR}, #{manadocnum,jdbcType=VARCHAR}, 
+      #{serviceunit,jdbcType=VARCHAR}, #{docsummary,jdbcType=VARCHAR}, #{orgname,jdbcType=VARCHAR}, 
+      #{firstnum,jdbcType=VARCHAR}, #{secondnum,jdbcType=VARCHAR}, #{intervenenum,jdbcType=VARCHAR}, 
+      #{flupnum,jdbcType=VARCHAR}, #{docpicroot,jdbcType=LONGVARBINARY})
+  </insert>
+  <insert id="insertSelective" parameterType="com.lidong.entity.SysUser" >
+    insert into sys_user
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="userid != null" >
+        userid,
+      </if>
+      <if test="username != null" >
+        username,
+      </if>
+      <if test="password != null" >
+        password,
+      </if>
+      <if test="sexid != null" >
+        sexid,
+      </if>
+      <if test="email != null" >
+        email,
+      </if>
+      <if test="truename != null" >
+        truename,
+      </if>
+      <if test="orgid != null" >
+        orgid,
+      </if>
+      <if test="state != null" >
+        state,
+      </if>
+      <if test="creattime != null" >
+        creattime,
+      </if>
+      <if test="createuserid != null" >
+        createuserid,
+      </if>
+      <if test="root != null" >
+        root,
+      </if>
+      <if test="menustr != null" >
+        menustr,
+      </if>
+      <if test="shortcutmenu != null" >
+        shortcutmenu,
+      </if>
+      <if test="telphone != null" >
+        telphone,
+      </if>
+      <if test="mastr != null" >
+        mastr,
+      </if>
+      <if test="mustr != null" >
+        mustr,
+      </if>
+      <if test="smtpemail != null" >
+        smtpemail,
+      </if>
+      <if test="smtp != null" >
+        smtp,
+      </if>
+      <if test="smtpport != null" >
+        smtpport,
+      </if>
+      <if test="emailpassword != null" >
+        emailpassword,
+      </if>
+      <if test="emailsingnature != null" >
+        emailsingnature,
+      </if>
+      <if test="birthday != null" >
+        birthday,
+      </if>
+      <if test="cardtypeid != null" >
+        cardtypeid,
+      </if>
+      <if test="cardno != null" >
+        cardno,
+      </if>
+      <if test="provid != null" >
+        provid,
+      </if>
+      <if test="citid != null" >
+        citid,
+      </if>
+      <if test="cyid != null" >
+        cyid,
+      </if>
+      <if test="postcoe != null" >
+        postcoe,
+      </if>
+      <if test="introduction != null" >
+        introduction,
+      </if>
+      <if test="unitname != null" >
+        unitname,
+      </if>
+      <if test="unitid != null" >
+        unitid,
+      </if>
+      <if test="address != null" >
+        address,
+      </if>
+      <if test="mobile != null" >
+        mobile,
+      </if>
+      <if test="defaultpanle != null" >
+        defaultpanle,
+      </if>
+      <if test="sysroleid != null" >
+        sysroleid,
+      </if>
+      <if test="parentuserid != null" >
+        parentuserid,
+      </if>
+      <if test="parentusername != null" >
+        parentusername,
+      </if>
+      <if test="orgestate != null" >
+        orgestate,
+      </if>
+      <if test="cusvisitnum != null" >
+        cusvisitnum,
+      </if>
+      <if test="cusformalnum != null" >
+        cusformalnum,
+      </if>
+      <if test="cusservicenum != null" >
+        cusservicenum,
+      </if>
+      <if test="manadocnum != null" >
+        manadocnum,
+      </if>
+      <if test="serviceunit != null" >
+        serviceunit,
+      </if>
+      <if test="docsummary != null" >
+        docsummary,
+      </if>
+      <if test="orgname != null" >
+        orgname,
+      </if>
+      <if test="firstnum != null" >
+        firstnum,
+      </if>
+      <if test="secondnum != null" >
+        secondnum,
+      </if>
+      <if test="intervenenum != null" >
+        intervenenum,
+      </if>
+      <if test="flupnum != null" >
+        flupnum,
+      </if>
+      <if test="docpicroot != null" >
+        docpicroot,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="userid != null" >
+        #{userid,jdbcType=VARCHAR},
+      </if>
+      <if test="username != null" >
+        #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null" >
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="sexid != null" >
+        #{sexid,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null" >
+        #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="truename != null" >
+        #{truename,jdbcType=VARCHAR},
+      </if>
+      <if test="orgid != null" >
+        #{orgid,jdbcType=VARCHAR},
+      </if>
+      <if test="state != null" >
+        #{state,jdbcType=VARCHAR},
+      </if>
+      <if test="creattime != null" >
+        #{creattime,jdbcType=VARCHAR},
+      </if>
+      <if test="createuserid != null" >
+        #{createuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="root != null" >
+        #{root,jdbcType=VARCHAR},
+      </if>
+      <if test="menustr != null" >
+        #{menustr,jdbcType=VARCHAR},
+      </if>
+      <if test="shortcutmenu != null" >
+        #{shortcutmenu,jdbcType=VARCHAR},
+      </if>
+      <if test="telphone != null" >
+        #{telphone,jdbcType=VARCHAR},
+      </if>
+      <if test="mastr != null" >
+        #{mastr,jdbcType=VARCHAR},
+      </if>
+      <if test="mustr != null" >
+        #{mustr,jdbcType=VARCHAR},
+      </if>
+      <if test="smtpemail != null" >
+        #{smtpemail,jdbcType=VARCHAR},
+      </if>
+      <if test="smtp != null" >
+        #{smtp,jdbcType=VARCHAR},
+      </if>
+      <if test="smtpport != null" >
+        #{smtpport,jdbcType=VARCHAR},
+      </if>
+      <if test="emailpassword != null" >
+        #{emailpassword,jdbcType=VARCHAR},
+      </if>
+      <if test="emailsingnature != null" >
+        #{emailsingnature,jdbcType=VARCHAR},
+      </if>
+      <if test="birthday != null" >
+        #{birthday,jdbcType=VARCHAR},
+      </if>
+      <if test="cardtypeid != null" >
+        #{cardtypeid,jdbcType=VARCHAR},
+      </if>
+      <if test="cardno != null" >
+        #{cardno,jdbcType=VARCHAR},
+      </if>
+      <if test="provid != null" >
+        #{provid,jdbcType=VARCHAR},
+      </if>
+      <if test="citid != null" >
+        #{citid,jdbcType=VARCHAR},
+      </if>
+      <if test="cyid != null" >
+        #{cyid,jdbcType=VARCHAR},
+      </if>
+      <if test="postcoe != null" >
+        #{postcoe,jdbcType=VARCHAR},
+      </if>
+      <if test="introduction != null" >
+        #{introduction,jdbcType=VARCHAR},
+      </if>
+      <if test="unitname != null" >
+        #{unitname,jdbcType=VARCHAR},
+      </if>
+      <if test="unitid != null" >
+        #{unitid,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null" >
+        #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="mobile != null" >
+        #{mobile,jdbcType=VARCHAR},
+      </if>
+      <if test="defaultpanle != null" >
+        #{defaultpanle,jdbcType=VARCHAR},
+      </if>
+      <if test="sysroleid != null" >
+        #{sysroleid,jdbcType=VARCHAR},
+      </if>
+      <if test="parentuserid != null" >
+        #{parentuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="parentusername != null" >
+        #{parentusername,jdbcType=VARCHAR},
+      </if>
+      <if test="orgestate != null" >
+        #{orgestate,jdbcType=VARCHAR},
+      </if>
+      <if test="cusvisitnum != null" >
+        #{cusvisitnum,jdbcType=VARCHAR},
+      </if>
+      <if test="cusformalnum != null" >
+        #{cusformalnum,jdbcType=VARCHAR},
+      </if>
+      <if test="cusservicenum != null" >
+        #{cusservicenum,jdbcType=VARCHAR},
+      </if>
+      <if test="manadocnum != null" >
+        #{manadocnum,jdbcType=VARCHAR},
+      </if>
+      <if test="serviceunit != null" >
+        #{serviceunit,jdbcType=VARCHAR},
+      </if>
+      <if test="docsummary != null" >
+        #{docsummary,jdbcType=VARCHAR},
+      </if>
+      <if test="orgname != null" >
+        #{orgname,jdbcType=VARCHAR},
+      </if>
+      <if test="firstnum != null" >
+        #{firstnum,jdbcType=VARCHAR},
+      </if>
+      <if test="secondnum != null" >
+        #{secondnum,jdbcType=VARCHAR},
+      </if>
+      <if test="intervenenum != null" >
+        #{intervenenum,jdbcType=VARCHAR},
+      </if>
+      <if test="flupnum != null" >
+        #{flupnum,jdbcType=VARCHAR},
+      </if>
+      <if test="docpicroot != null" >
+        #{docpicroot,jdbcType=LONGVARBINARY},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.lidong.entity.SysUser" >
+    update sys_user
+    <set >
+      <if test="username != null" >
+        username = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null" >
+        password = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="sexid != null" >
+        sexid = #{sexid,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null" >
+        email = #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="truename != null" >
+        truename = #{truename,jdbcType=VARCHAR},
+      </if>
+      <if test="orgid != null" >
+        orgid = #{orgid,jdbcType=VARCHAR},
+      </if>
+      <if test="state != null" >
+        state = #{state,jdbcType=VARCHAR},
+      </if>
+      <if test="creattime != null" >
+        creattime = #{creattime,jdbcType=VARCHAR},
+      </if>
+      <if test="createuserid != null" >
+        createuserid = #{createuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="root != null" >
+        root = #{root,jdbcType=VARCHAR},
+      </if>
+      <if test="menustr != null" >
+        menustr = #{menustr,jdbcType=VARCHAR},
+      </if>
+      <if test="shortcutmenu != null" >
+        shortcutmenu = #{shortcutmenu,jdbcType=VARCHAR},
+      </if>
+      <if test="telphone != null" >
+        telphone = #{telphone,jdbcType=VARCHAR},
+      </if>
+      <if test="mastr != null" >
+        mastr = #{mastr,jdbcType=VARCHAR},
+      </if>
+      <if test="mustr != null" >
+        mustr = #{mustr,jdbcType=VARCHAR},
+      </if>
+      <if test="smtpemail != null" >
+        smtpemail = #{smtpemail,jdbcType=VARCHAR},
+      </if>
+      <if test="smtp != null" >
+        smtp = #{smtp,jdbcType=VARCHAR},
+      </if>
+      <if test="smtpport != null" >
+        smtpport = #{smtpport,jdbcType=VARCHAR},
+      </if>
+      <if test="emailpassword != null" >
+        emailpassword = #{emailpassword,jdbcType=VARCHAR},
+      </if>
+      <if test="emailsingnature != null" >
+        emailsingnature = #{emailsingnature,jdbcType=VARCHAR},
+      </if>
+      <if test="birthday != null" >
+        birthday = #{birthday,jdbcType=VARCHAR},
+      </if>
+      <if test="cardtypeid != null" >
+        cardtypeid = #{cardtypeid,jdbcType=VARCHAR},
+      </if>
+      <if test="cardno != null" >
+        cardno = #{cardno,jdbcType=VARCHAR},
+      </if>
+      <if test="provid != null" >
+        provid = #{provid,jdbcType=VARCHAR},
+      </if>
+      <if test="citid != null" >
+        citid = #{citid,jdbcType=VARCHAR},
+      </if>
+      <if test="cyid != null" >
+        cyid = #{cyid,jdbcType=VARCHAR},
+      </if>
+      <if test="postcoe != null" >
+        postcoe = #{postcoe,jdbcType=VARCHAR},
+      </if>
+      <if test="introduction != null" >
+        introduction = #{introduction,jdbcType=VARCHAR},
+      </if>
+      <if test="unitname != null" >
+        unitname = #{unitname,jdbcType=VARCHAR},
+      </if>
+      <if test="unitid != null" >
+        unitid = #{unitid,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null" >
+        address = #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="mobile != null" >
+        mobile = #{mobile,jdbcType=VARCHAR},
+      </if>
+      <if test="defaultpanle != null" >
+        defaultpanle = #{defaultpanle,jdbcType=VARCHAR},
+      </if>
+      <if test="sysroleid != null" >
+        sysroleid = #{sysroleid,jdbcType=VARCHAR},
+      </if>
+      <if test="parentuserid != null" >
+        parentuserid = #{parentuserid,jdbcType=VARCHAR},
+      </if>
+      <if test="parentusername != null" >
+        parentusername = #{parentusername,jdbcType=VARCHAR},
+      </if>
+      <if test="orgestate != null" >
+        orgestate = #{orgestate,jdbcType=VARCHAR},
+      </if>
+      <if test="cusvisitnum != null" >
+        cusvisitnum = #{cusvisitnum,jdbcType=VARCHAR},
+      </if>
+      <if test="cusformalnum != null" >
+        cusformalnum = #{cusformalnum,jdbcType=VARCHAR},
+      </if>
+      <if test="cusservicenum != null" >
+        cusservicenum = #{cusservicenum,jdbcType=VARCHAR},
+      </if>
+      <if test="manadocnum != null" >
+        manadocnum = #{manadocnum,jdbcType=VARCHAR},
+      </if>
+      <if test="serviceunit != null" >
+        serviceunit = #{serviceunit,jdbcType=VARCHAR},
+      </if>
+      <if test="docsummary != null" >
+        docsummary = #{docsummary,jdbcType=VARCHAR},
+      </if>
+      <if test="orgname != null" >
+        orgname = #{orgname,jdbcType=VARCHAR},
+      </if>
+      <if test="firstnum != null" >
+        firstnum = #{firstnum,jdbcType=VARCHAR},
+      </if>
+      <if test="secondnum != null" >
+        secondnum = #{secondnum,jdbcType=VARCHAR},
+      </if>
+      <if test="intervenenum != null" >
+        intervenenum = #{intervenenum,jdbcType=VARCHAR},
+      </if>
+      <if test="flupnum != null" >
+        flupnum = #{flupnum,jdbcType=VARCHAR},
+      </if>
+      <if test="docpicroot != null" >
+        docpicroot = #{docpicroot,jdbcType=LONGVARBINARY},
+      </if>
+    </set>
+    where userid = #{userid,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.lidong.entity.SysUser" >
+    update sys_user
+    set username = #{username,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
+      sexid = #{sexid,jdbcType=VARCHAR},
+      email = #{email,jdbcType=VARCHAR},
+      truename = #{truename,jdbcType=VARCHAR},
+      orgid = #{orgid,jdbcType=VARCHAR},
+      state = #{state,jdbcType=VARCHAR},
+      creattime = #{creattime,jdbcType=VARCHAR},
+      createuserid = #{createuserid,jdbcType=VARCHAR},
+      root = #{root,jdbcType=VARCHAR},
+      menustr = #{menustr,jdbcType=VARCHAR},
+      shortcutmenu = #{shortcutmenu,jdbcType=VARCHAR},
+      telphone = #{telphone,jdbcType=VARCHAR},
+      mastr = #{mastr,jdbcType=VARCHAR},
+      mustr = #{mustr,jdbcType=VARCHAR},
+      smtpemail = #{smtpemail,jdbcType=VARCHAR},
+      smtp = #{smtp,jdbcType=VARCHAR},
+      smtpport = #{smtpport,jdbcType=VARCHAR},
+      emailpassword = #{emailpassword,jdbcType=VARCHAR},
+      emailsingnature = #{emailsingnature,jdbcType=VARCHAR},
+      birthday = #{birthday,jdbcType=VARCHAR},
+      cardtypeid = #{cardtypeid,jdbcType=VARCHAR},
+      cardno = #{cardno,jdbcType=VARCHAR},
+      provid = #{provid,jdbcType=VARCHAR},
+      citid = #{citid,jdbcType=VARCHAR},
+      cyid = #{cyid,jdbcType=VARCHAR},
+      postcoe = #{postcoe,jdbcType=VARCHAR},
+      introduction = #{introduction,jdbcType=VARCHAR},
+      unitname = #{unitname,jdbcType=VARCHAR},
+      unitid = #{unitid,jdbcType=VARCHAR},
+      address = #{address,jdbcType=VARCHAR},
+      mobile = #{mobile,jdbcType=VARCHAR},
+      defaultpanle = #{defaultpanle,jdbcType=VARCHAR},
+      sysroleid = #{sysroleid,jdbcType=VARCHAR},
+      parentuserid = #{parentuserid,jdbcType=VARCHAR},
+      parentusername = #{parentusername,jdbcType=VARCHAR},
+      orgestate = #{orgestate,jdbcType=VARCHAR},
+      cusvisitnum = #{cusvisitnum,jdbcType=VARCHAR},
+      cusformalnum = #{cusformalnum,jdbcType=VARCHAR},
+      cusservicenum = #{cusservicenum,jdbcType=VARCHAR},
+      manadocnum = #{manadocnum,jdbcType=VARCHAR},
+      serviceunit = #{serviceunit,jdbcType=VARCHAR},
+      docsummary = #{docsummary,jdbcType=VARCHAR},
+      orgname = #{orgname,jdbcType=VARCHAR},
+      firstnum = #{firstnum,jdbcType=VARCHAR},
+      secondnum = #{secondnum,jdbcType=VARCHAR},
+      intervenenum = #{intervenenum,jdbcType=VARCHAR},
+      flupnum = #{flupnum,jdbcType=VARCHAR},
+      docpicroot = #{docpicroot,jdbcType=LONGVARBINARY}
+    where userid = #{userid,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.lidong.entity.SysUser" >
+    update sys_user
+    set username = #{username,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
+      sexid = #{sexid,jdbcType=VARCHAR},
+      email = #{email,jdbcType=VARCHAR},
+      truename = #{truename,jdbcType=VARCHAR},
+      orgid = #{orgid,jdbcType=VARCHAR},
+      state = #{state,jdbcType=VARCHAR},
+      creattime = #{creattime,jdbcType=VARCHAR},
+      createuserid = #{createuserid,jdbcType=VARCHAR},
+      root = #{root,jdbcType=VARCHAR},
+      menustr = #{menustr,jdbcType=VARCHAR},
+      shortcutmenu = #{shortcutmenu,jdbcType=VARCHAR},
+      telphone = #{telphone,jdbcType=VARCHAR},
+      mastr = #{mastr,jdbcType=VARCHAR},
+      mustr = #{mustr,jdbcType=VARCHAR},
+      smtpemail = #{smtpemail,jdbcType=VARCHAR},
+      smtp = #{smtp,jdbcType=VARCHAR},
+      smtpport = #{smtpport,jdbcType=VARCHAR},
+      emailpassword = #{emailpassword,jdbcType=VARCHAR},
+      emailsingnature = #{emailsingnature,jdbcType=VARCHAR},
+      birthday = #{birthday,jdbcType=VARCHAR},
+      cardtypeid = #{cardtypeid,jdbcType=VARCHAR},
+      cardno = #{cardno,jdbcType=VARCHAR},
+      provid = #{provid,jdbcType=VARCHAR},
+      citid = #{citid,jdbcType=VARCHAR},
+      cyid = #{cyid,jdbcType=VARCHAR},
+      postcoe = #{postcoe,jdbcType=VARCHAR},
+      introduction = #{introduction,jdbcType=VARCHAR},
+      unitname = #{unitname,jdbcType=VARCHAR},
+      unitid = #{unitid,jdbcType=VARCHAR},
+      address = #{address,jdbcType=VARCHAR},
+      mobile = #{mobile,jdbcType=VARCHAR},
+      defaultpanle = #{defaultpanle,jdbcType=VARCHAR},
+      sysroleid = #{sysroleid,jdbcType=VARCHAR},
+      parentuserid = #{parentuserid,jdbcType=VARCHAR},
+      parentusername = #{parentusername,jdbcType=VARCHAR},
+      orgestate = #{orgestate,jdbcType=VARCHAR},
+      cusvisitnum = #{cusvisitnum,jdbcType=VARCHAR},
+      cusformalnum = #{cusformalnum,jdbcType=VARCHAR},
+      cusservicenum = #{cusservicenum,jdbcType=VARCHAR},
+      manadocnum = #{manadocnum,jdbcType=VARCHAR},
+      serviceunit = #{serviceunit,jdbcType=VARCHAR},
+      docsummary = #{docsummary,jdbcType=VARCHAR},
+      orgname = #{orgname,jdbcType=VARCHAR},
+      firstnum = #{firstnum,jdbcType=VARCHAR},
+      secondnum = #{secondnum,jdbcType=VARCHAR},
+      intervenenum = #{intervenenum,jdbcType=VARCHAR},
+      flupnum = #{flupnum,jdbcType=VARCHAR}
+    where userid = #{userid,jdbcType=VARCHAR}
+  </update>
+</mapper>

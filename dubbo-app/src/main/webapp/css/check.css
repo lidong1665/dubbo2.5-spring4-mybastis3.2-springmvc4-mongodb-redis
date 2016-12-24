@@ -1,0 +1,99 @@
+
+.small_input2{
+	  width: 90px;
+	  height: 40px;
+	  line-height:40px;
+	  border: 1px solid #ccc;
+	  border-radius:4px;
+	  padding:5px;
+	  font-size: 16px;
+	  font-weight: normal;
+}
+.small_input2:focus{
+	border: 1px solid #2ecc71;
+}
+
+.check{
+  min-height: 500px;
+}
+.check .row a.btn{
+  margin: 10px 0;
+}
+
+
+#gatherItems .form-group>label{
+	margin:0;
+}
+#gatherItems .form-group{
+		margin:0;
+		padding:0;
+}
+
+/*绑定设备*/
+#bindDiv .row{
+  margin: 8px 0;
+}
+
+.alertMsgTxt{
+	margin-bottom:0px;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+}
+
+#leftPanel .panel-body{
+	
+}
+.panel-title{
+	padding:5px;
+	font-size:17px;
+}
+#leftPanel .list-group{
+	margin:0;
+	border-radius:0;
+}
+
+#leftPanel .list-group a{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:15px;
+}
+
+.list-group-item:first-child, .list-group-item:last-child{
+	border-radius:0;
+}
+
+#leftPanel .list-group a.active{
+	background: #2ecc71;
+	border:none;
+}
+
+
+/*屏幕宽度小于768px执行*/
+@media screen and (max-width: 768px) {
+ 	#leftPanel .panel-body{
+ 		overflow-y:scroll;
+ 		height:170px;
+ 	}
+ 	.alert{
+ 		font-size:15px;
+ 	}
+ 	#leftPanel{
+ 		font-size:15px;
+ 	}
+ 	#leftPanel .panel-title{
+		font-size:18px;
+	}
+}
+
+/*屏幕宽度大于960px执行*/
+@media screen and (min-width: 960px) {
+  .check .row{
+    padding: 10px 50px;
+  }
+}
+@media(min-width:768px){
+	#gatherItems .input-group{
+		max-width:170px;
+		margin-top:8px;
+	}
+}

@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/*
+* 重写部分样式
+*/
+#myNav{
+	background: #008b7c;
+}
+
+#myNav li.active{
+	background-color: rgb(20, 82, 67);
+}
+
+.btn-success{
+	background-color: #008b7c ;
+}
+.btn-success:hover{
+	background-color: rgb(20, 82, 67);
+}
+#userDropDown .dropdown-menu{
+	background-color: #008b7c ;
+}
+#userDropDown .dropdown-menu  a{
+	color:#fff !important;
+}
+a{
+	color:#008b7c ;
+}
+
+footer{
+	background-color:#008b7c;
+}

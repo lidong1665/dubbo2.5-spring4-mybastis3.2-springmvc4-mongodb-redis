@@ -1,0 +1,18 @@
+<root>
+  <facet id="wst.jsdt.web"/>
+  <facet id="jst.jsf">
+    <node name="libprov">
+      <attribute name="provider-id" value="maven-lib-provider"/>
+    </node>
+  </facet>
+  <facet id="jst.web.jstl"/>
+  <facet id="jst.web"/>
+  <facet id="java"/>
+  <facet id="jsf.facelet"/>
+  <facet id="maven"/>
+  <facet id="jst.jaxrs">
+    <node name="libprov">
+      <attribute name="provider-id" value="maven-lib-provider"/>
+    </node>
+  </facet>
+</root>

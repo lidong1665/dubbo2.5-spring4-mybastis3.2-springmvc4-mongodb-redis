@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+
+/*
+* 重写部分样式 -- 解放军305医院
+*/
+#myNav{
+	background: #b41e00;
+}
+
+#myNav li.active{
+	background-color: #1abc9c;
+}
+#myNav li:hover{
+	background-color:#1abc9c;
+}
+.btn-success{
+	background-color:#b41e00;
+}
+.btn-success:hover{
+	background-color:#b41e00;
+}
+#userDropDown .dropdown-menu{
+	background-color: #b41e00;
+}
+#userDropDown .dropdown-menu  a{
+	color:#fff !important;
+}
+a{
+	color:#b41e00;
+}
+
+footer{
+	background-color:#b41e00;
+}

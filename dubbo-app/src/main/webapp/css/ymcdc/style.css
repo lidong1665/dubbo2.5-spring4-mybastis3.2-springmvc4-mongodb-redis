@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+
+/*
+* 重写部分样式 -- 云梦
+*/
+#myNav{
+	background: #2388da;
+}
+
+#myNav li.active{
+	background-color: #1abc9c;
+}
+#myNav li:hover{
+	background-color:#1abc9c;
+}
+.btn-success{
+	background-color:#2388da;
+}
+.btn-success:hover{
+	background-color:#1abc9c;
+}
+#userDropDown .dropdown-menu{
+	background-color: #2388da 
+}
+#userDropDown .dropdown-menu  a{
+	color:#fff !important;
+}
+a{
+	color:#2388da;
+}
+
+footer{
+	background-color:#2388da;
+}

@@ -1,0 +1,22 @@
+.small_input2{
+	  width: 105px;
+	  height: 35px;
+	  line-height:35px;
+	  border: 1px solid #ccc;
+	  border-radius:4px;
+	  padding:5px;
+}
+
+.small_select{
+	  min-width: 120px;
+	  height: 35px;
+	  line-height:35px;
+	  border: 1px solid #ccc;
+	  border-radius:4px;
+	  font-size:16px;
+	  background: #fff;
+}
+
+.act .table{
+	margin-bottom:5px;
+}
