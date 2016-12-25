@@ -3,7 +3,13 @@
   <groupId>lidong-dubbo-api</groupId>
   <artifactId>lidong-dubbo-api</artifactId>
   <version>0.0.1-SNAPSHOT</version>
- 
+ <dependencies>
+		<dependency>
+			<groupId>lidong-dubbo-model</groupId>
+			<artifactId>lidong-dubbo-model</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		</dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
