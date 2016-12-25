@@ -7,7 +7,9 @@ dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis整合
  - lidong-dubbo-core  服务提供者模块
  - lidong-dubbo-web   服务消费者模块
  - mybatis-generator  mybatis生成mapper的模块
+ 
 #该项目使用到的技术
+
  - dubbo2.5 
  - spring4
  -  mybastis3.2 
