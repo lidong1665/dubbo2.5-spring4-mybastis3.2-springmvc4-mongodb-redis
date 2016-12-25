@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/lidong/core/user/dao/IUserMongDBDao.java=UTF-8
+encoding//src/main/java/com/lidong/core/user/dao/IUserRedisDao.java=UTF-8

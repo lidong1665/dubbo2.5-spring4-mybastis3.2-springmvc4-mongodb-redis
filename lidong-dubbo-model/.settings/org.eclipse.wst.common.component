@@ -2,6 +2,5 @@
     <wb-module deploy-name="lidong-dubbo-model">
         <wb-resource deploy-path="/" source-path="/src/main/resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/java"/>
-        <wb-resource deploy-path="/" source-path="/src/main/resource"/>
     </wb-module>
 </project-modules>

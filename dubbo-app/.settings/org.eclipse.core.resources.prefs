@@ -1,8 +1,0 @@
-eclipse.preferences.version=1
-encoding//src/main/java/com/lidong/util/AbstractBaseRedisTemplete.java=UTF-8
-encoding//src/main/java/com/lidong/util/MongoAppender.java=UTF-8
-encoding//src/main/java/com/lidong/util/RedisUtil.java=UTF-8
-encoding//src/main/java/com/lidong/util/WebLogAspect.java=UTF-8
-encoding//src/main/resources/log4j.properties=UTF-8
-encoding/<project>=UTF-8
-separateDerivedEncodings=true
