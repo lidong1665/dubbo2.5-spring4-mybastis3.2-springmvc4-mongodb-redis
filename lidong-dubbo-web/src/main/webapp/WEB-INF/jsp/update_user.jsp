@@ -25,7 +25,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     
   <body>  
 修改用户信息<br/>
- <form action="/SpringMVC_MyBatis/user/updateUser?id=${user.id}" method="post">
+ <form action="/lidong-dubbo-web/user/updateUser?id=${user.id}" method="post">
  用户名：<input type="text" name="username" value="${user.name}"/><br/>
  密&nbsp;&nbsp;&nbsp;码： <input type="text" name="password" value="${user.password}"/><br/>
 年&nbsp;&nbsp;&nbsp;龄： <input type="text" name="age" value="${user.age}"/><br/>

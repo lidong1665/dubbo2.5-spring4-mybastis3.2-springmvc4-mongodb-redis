@@ -39,7 +39,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <body>  
   
      <h1>springMVC字节流输入上传文件</h1>   
-    <form name="userForm1" action="/SpringMVC_MyBatis/user/upload" enctype="multipart/form-data" method="post">  
+    <form name="userForm1" action="/lidong-dubbo-web/user/upload" enctype="multipart/form-data" method="post">  
         <div id="newUpload1">  
             <input type="file" name="file">  
         </div>  
@@ -53,7 +53,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <br>  
     <br>  
      <h1>springMVC包装类上传文件</h1>   
-    <form name="userForm2" action="/SpringMVC_MyBatis/user/upload2" enctype="multipart/form-data" method="post"">  
+    <form name="userForm2" action="/lidong-dubbo-web/user/upload2" enctype="multipart/form-data" method="post"">  
         <div id="newUpload2">  
             <input type="file" name="file">  
         </div>  
