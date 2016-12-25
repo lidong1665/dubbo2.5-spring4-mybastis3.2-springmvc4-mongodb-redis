@@ -10,7 +10,7 @@
         <dependent-module archiveName="lidong-dubbo-model-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/lidong-dubbo-model/lidong-dubbo-model">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <property name="context-root" value="SpringMVC_MyBatis"/>
         <property name="java-output-path" value="/lidong-dubbo-web/target/classes"/>
+        <property name="context-root" value="lidong-dubbo-web"/>
     </wb-module>
 </project-modules>
