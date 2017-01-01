@@ -8,7 +8,11 @@ import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
-
+/**
+ * 
+ * @author lidong
+ *
+ */
 public class MongoAppender  extends AppenderSkeleton {
 
     private MongoClient mongoClient;

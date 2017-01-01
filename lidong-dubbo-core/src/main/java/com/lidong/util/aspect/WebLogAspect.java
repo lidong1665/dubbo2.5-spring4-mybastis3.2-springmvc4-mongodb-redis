@@ -1,4 +1,4 @@
-package com.lidong.util;
+package com.lidong.util.aspect;
 
 import java.util.Arrays;
 import java.util.Enumeration;
@@ -18,6 +18,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
+import com.lidong.util.AbstractBaseMongoTemplete;
 import com.mongodb.BasicDBObject;
 /**
  * 保存请求数据到mongodb

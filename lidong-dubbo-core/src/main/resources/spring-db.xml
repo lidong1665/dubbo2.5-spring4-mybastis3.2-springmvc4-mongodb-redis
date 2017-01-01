@@ -22,8 +22,15 @@
 			</list>
 		</property>
 	</bean>
- 
-	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+
+	<bean id="statFilter" class="com.alibaba.druid.filter.stat.StatFilter"
+		lazy-init="true">
+		<property name="logSlowSql" value="true" />
+		<property name="mergeSql" value="true" />
+	</bean>
+
+
+	<bean id="readDataSource" class="com.alibaba.druid.pool.DruidDataSource"
 		init-method="init" destroy-method="close">
 		<property name="url" value="${url}" />
 		<property name="username" value="${username}" />
@@ -45,7 +52,55 @@
 
 	</bean>
 
-   
+	<bean id="writeDataSource" class="com.alibaba.druid.pool.DruidDataSource"
+		destroy-method="close" init-method="init" lazy-init="true">
+		<property name="driverClassName" value="${driver}" />
+		<property name="url" value="${url1}" />
+		<property name="username" value="${username}" />
+		<property name="password" value="${password1}" />
+		<property name="initialSize" value="${initialSize}" />
+		<property name="maxActive" value="${maxActive}" />
+		<property name="minIdle" value="${minIdle}" />
+		<property name="maxWait" value="${maxWait}" />
+		<property name="proxyFilters">
+			<list>
+				<ref bean="statFilter" />
+			</list>
+		</property>
+		<property name="filters" value="${druid.filters}" />
+		<property name="connectionProperties" value="password=${password1}" />
+		<property name="testWhileIdle" value="true" />
+		<property name="testOnBorrow" value="false" />
+		<property name="testOnReturn" value="false" />
+		<property name="validationQuery" value="SELECT 'x'" />
+		<property name="timeBetweenLogStatsMillis" value="60000" />
+		<property name="minEvictableIdleTimeMillis" value="${minEvictableIdleTimeMillis}" />
+		<property name="timeBetweenEvictionRunsMillis" value="${timeBetweenEvictionRunsMillis}" />
+	</bean>
+
+	<!-- 配置动态分配的读写 数据源 -->
+	<bean id="dataSource" class="com.lidong.util.aspect.ChooseDataSource"
+		lazy-init="true">
+		<property name="targetDataSources">
+			<map key-type="java.lang.String" value-type="javax.sql.DataSource">
+				<!-- write -->
+				<entry key="write" value-ref="writeDataSource" />
+				<!-- read -->
+				<entry key="read" value-ref="readDataSource" />
+			</map>
+		</property>
+		<property name="defaultTargetDataSource" ref="writeDataSource" />
+		<property name="methodType">
+			<map key-type="java.lang.String">
+				<!-- read -->
+				<entry key="read" value=",get,select,count,list,query" />
+				<!-- write -->
+				<entry key="write" value=",add,create,update,delete,remove," />
+			</map>
+		</property>
+	</bean>
+
+
 	<!-- spring和MyBatis完美整合，不需要mybatis的配置映射文件 -->
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="configLocation" value="classpath:mybatis-config.xml"></property>
