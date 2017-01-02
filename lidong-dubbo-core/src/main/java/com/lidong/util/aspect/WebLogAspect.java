@@ -28,7 +28,7 @@ import com.mongodb.BasicDBObject;
 @Aspect
 @Order(1)
 @Component
-public class WebLogAspect extends AbstractBaseMongoTemplete{
+public class WebLogAspect{
 
     private Logger logger = Logger.getLogger("mongodb");
     ThreadLocal<Long> startTime = new ThreadLocal<>();
@@ -80,7 +80,7 @@ public class WebLogAspect extends AbstractBaseMongoTemplete{
     	     BasicDBObject logInfo = getBasicDBObject(request, mJoinPoint);    
     	     // 处理完请求，返回内容
     	     logInfo.append("response",ret);
-//    	     logInfo.append("spend_time", (System.currentTimeMillis() - startTime.get()));
+    	     logInfo.append("spend_time", (System.currentTimeMillis() - startTime.get()));
     	     logger.info(logInfo);
      }
 }
