@@ -89,6 +89,7 @@
 				<entry key="read" value-ref="readDataSource" />
 			</map>
 		</property>
+		<!-- 配置了数据库具体的那些是读哪些是写的前缀关键字 -->
 		<property name="defaultTargetDataSource" ref="writeDataSource" />
 		<property name="methodType">
 			<map key-type="java.lang.String">

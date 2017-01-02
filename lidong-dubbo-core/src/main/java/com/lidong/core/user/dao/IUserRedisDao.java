@@ -7,7 +7,7 @@ public interface IUserRedisDao {
      * 查询数据 
      *  
      * @author：lidogn 
-     * @Title: findAll 
+     * @Title: findById 
      * @param @return 
      * @return List<UserModel> 
      * @date May 13, 2016 3:07:39 PM 

@@ -7,9 +7,9 @@ import com.lidong.model.user.UserInfo;
 
 public interface IUserMongDBDao {
 	 /** 
-     * ������������������ 
      *  
-     * @author���lidong 
+     *  
+     * @author lidong 
      * @Title: findAll 
      * @param @return 
      * @return List<UserModel> 
