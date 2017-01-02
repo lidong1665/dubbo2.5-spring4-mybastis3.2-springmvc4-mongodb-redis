@@ -1,5 +1,6 @@
 package com.lidong.util.aspect;
 
+import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
@@ -19,7 +20,7 @@ public class DataSourceAspect {
 
     protected Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    @Pointcut("execution(* com.xuliugen.choosedb.demo.mybatis.dao.*.*(..))")
+    @Pointcut("execution(* com.lidong.core.*.dao.*.*(..))")
     public void aspect() {
     }
 
@@ -30,7 +31,7 @@ public class DataSourceAspect {
     public void before(JoinPoint point) {
         String className = point.getTarget().getClass().getName();
         String method = point.getSignature().getName();
-        logger.info(className + "." + method );
+        logger.info(className + "." + method + "(" + StringUtils.join(point.getArgs(), ",") + ")");
         try {
             for (String key : ChooseDataSource.METHOD_TYPE_MAP.keySet()) {
                 for (String type : ChooseDataSource.METHOD_TYPE_MAP.get(key)) {

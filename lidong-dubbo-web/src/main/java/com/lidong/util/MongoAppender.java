@@ -8,15 +8,27 @@ import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
-
+/**
+ * 自定义appender实现输出日志MongoDB
+ * @author lidong
+ *
+ */
 public class MongoAppender  extends AppenderSkeleton {
-
+    
     private MongoClient mongoClient;
     private MongoDatabase mongoDatabase;
     private MongoCollection<BasicDBObject> logsCollection;
-
+    /**
+     * mongodb连接的url
+     */
     private String connectionUrl;
+    /**
+     * 数据库的名称
+     */
     private String databaseName;
+    /**
+     * 集合的名称
+     */
     private String collectionName;
 
     @Override
@@ -28,6 +40,7 @@ public class MongoAppender  extends AppenderSkeleton {
             mongoDatabase = mongoClient.getDatabase(databaseName);
             logsCollection = mongoDatabase.getCollection(collectionName, BasicDBObject.class);
         }
+        //将日志插入到集合
         logsCollection.insertOne((BasicDBObject) loggingEvent.getMessage());
 
     }

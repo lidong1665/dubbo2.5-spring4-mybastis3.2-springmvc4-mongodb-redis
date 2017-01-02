@@ -8,8 +8,6 @@
  <file-system NAME="src" location="%workspace.home%/../../java" model-entity="FileSystemFolder"/>
  <file-system NAME="lib" location="%workspace.home%/lib" model-entity="FileSystemFolder"/>
  <file-system NAME="classes" location="%workspace.home%/classes" model-entity="FileSystemFolder"/>
- <file-system NAME="src-1"
-  location="%workspace.home%/../../../test/java" model-entity="FileSystemFolder"/>
  <file-system NAME="src-2" location="%workspace.home%/../../resources" model-entity="FileSystemFolder"/>
  <file-system NAME="lib-junit-4.11.jar"
   location="/Users/lidong/.m2/repository/junit/junit/4.11/junit-4.11.jar" model-entity="FileSystemJar"/>
@@ -161,6 +159,8 @@
   location="/System/Library/Java/Extensions/MRJToolkit.jar" model-entity="FileSystemJar"/>
  <file-system NAME="lib-vecmath.jar"
   location="/System/Library/Java/Extensions/vecmath.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-log4mongo-java-0.7.4.jar"
+  location="/Users/lidong/.m2/repository/org/log4mongo/log4mongo-java/0.7.4/log4mongo-java-0.7.4.jar" model-entity="FileSystemJar"/>
  <web SERVLET_VERSION="2.4" model-entity="JstWeb" model-path="/web.xml">
   <module URI="/WEB-INF/faces-config.xml" model-entity="WebJSFModule"
    model-path="/faces-config.xml" src="src" web-root="WEB-ROOT"/>

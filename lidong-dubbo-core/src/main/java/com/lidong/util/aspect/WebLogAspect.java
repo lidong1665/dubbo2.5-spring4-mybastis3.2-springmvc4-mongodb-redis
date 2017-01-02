@@ -80,7 +80,7 @@ public class WebLogAspect extends AbstractBaseMongoTemplete{
     	     BasicDBObject logInfo = getBasicDBObject(request, mJoinPoint);    
     	     // 处理完请求，返回内容
     	     logInfo.append("response",ret);
-    	     logInfo.append("spend_time", (System.currentTimeMillis() - startTime.get()));
+//    	     logInfo.append("spend_time", (System.currentTimeMillis() - startTime.get()));
     	     logger.info(logInfo);
      }
 }

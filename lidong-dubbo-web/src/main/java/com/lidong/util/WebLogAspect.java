@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.apache.log4j.Logger;
 import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
@@ -30,6 +31,9 @@ import com.mongodb.BasicDBObject;
 public class WebLogAspect {
 
     private Logger logger = Logger.getLogger("mongodb");
+    /**
+     * 引入ThreadLocal对象,保证请求时间的同步
+     */
     ThreadLocal<Long> startTime = new ThreadLocal<>();
     HttpServletRequest request;
     JoinPoint mJoinPoint;
@@ -62,10 +66,14 @@ public class WebLogAspect {
         r.append("args", Arrays.toString(joinPoint.getArgs()));
         return r;
     }
-
+    /**
+     * 获取请求头部的信息
+     * @param request
+     * @return
+     */
     private Map<String, String> getHeadersInfo(HttpServletRequest request) {
         Map<String, String> map = new HashMap<>();
-        Enumeration headerNames = request.getHeaderNames();
+        Enumeration<?> headerNames = request.getHeaderNames();
         while (headerNames.hasMoreElements()) {
             String key = (String) headerNames.nextElement();
             String value = request.getHeader(key);
@@ -80,6 +88,8 @@ public class WebLogAspect {
     	     // 处理完请求，返回内容
     	     logInfo.append("response",ret.toString());
     	     logInfo.append("spend_time", (System.currentTimeMillis() - startTime.get()));
+    	     //打印日志到到数据库
     	     logger.info(logInfo);
      }
+    
 }
