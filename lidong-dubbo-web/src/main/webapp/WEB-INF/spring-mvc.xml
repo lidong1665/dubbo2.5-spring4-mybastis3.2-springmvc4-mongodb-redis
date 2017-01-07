@@ -83,6 +83,5 @@
 
     <!-- web统一管理  -->
     <aop:aspectj-autoproxy proxy-target-class="true"/>
-    <bean class="com.lidong.util.WebLogAspect" />
     
 </beans>  
