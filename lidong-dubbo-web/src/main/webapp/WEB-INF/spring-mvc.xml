@@ -83,5 +83,9 @@
 
     <!-- web统一管理  -->
     <aop:aspectj-autoproxy proxy-target-class="true"/>
+<<<<<<< HEAD
+=======
+   
+>>>>>>> origin/master
     
 </beans>  
