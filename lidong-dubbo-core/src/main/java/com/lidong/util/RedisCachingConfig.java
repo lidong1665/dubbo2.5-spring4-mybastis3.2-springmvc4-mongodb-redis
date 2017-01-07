@@ -11,13 +11,18 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.cache.RedisCacheManager;
 import org.springframework.data.redis.core.RedisTemplate;
-
+/**
+ * RedisCachingConfig Redis 缓存配置
+ * @author lidong
+ * @version 1.0.0
+ */
 @Configuration
 @EnableCaching
-public class CachingConfig extends CachingConfigurerSupport{
+public class RedisCachingConfig extends CachingConfigurerSupport{
 	
-	@Bean  
-    public KeyGenerator wiselyKeyGenerator(){  
+	@Bean 
+	@Override
+    public KeyGenerator keyGenerator(){  
         return new KeyGenerator() {
 
 			@Override
