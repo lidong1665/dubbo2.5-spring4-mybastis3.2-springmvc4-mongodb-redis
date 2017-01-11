@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lidong-dubbo-api" />
+        <module name="lidong-dubbo-core" />
+        <module name="lidong-dubbo-model" />
+        <module name="lidong-dubbo-util" />
+        <module name="lidong-dubbo-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="lidong-dubbo" target="1.5" />
+      <module name="lidong-dubbo-api" target="1.8" />
+      <module name="lidong-dubbo-core" target="1.8" />
+      <module name="lidong-dubbo-model" target="1.8" />
+      <module name="lidong-dubbo-util" target="1.8" />
+      <module name="lidong-dubbo-web" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

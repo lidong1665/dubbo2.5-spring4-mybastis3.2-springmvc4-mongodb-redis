@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lidong-dubbo.iml" filepath="$PROJECT_DIR$/lidong-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lidong-dubbo-api/lidong-dubbo-api.iml" filepath="$PROJECT_DIR$/lidong-dubbo-api/lidong-dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lidong-dubbo-core/lidong-dubbo-core.iml" filepath="$PROJECT_DIR$/lidong-dubbo-core/lidong-dubbo-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lidong-dubbo-model/lidong-dubbo-model.iml" filepath="$PROJECT_DIR$/lidong-dubbo-model/lidong-dubbo-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lidong-dubbo-util/lidong-dubbo-util.iml" filepath="$PROJECT_DIR$/lidong-dubbo-util/lidong-dubbo-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lidong-dubbo-web/lidong-dubbo-web.iml" filepath="$PROJECT_DIR$/lidong-dubbo-web/lidong-dubbo-web.iml" />
+    </modules>
+  </component>
+</project>

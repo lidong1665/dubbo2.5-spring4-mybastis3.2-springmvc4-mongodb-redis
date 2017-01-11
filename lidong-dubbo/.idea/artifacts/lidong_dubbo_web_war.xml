@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lidong-dubbo-web:war">
+    <output-path>$PROJECT_DIR$/lidong-dubbo-web/target</output-path>
+    <root id="archive" name="lidong-dubbo-web.war">
+      <element id="artifact" artifact-name="lidong-dubbo-web:war exploded" />
+    </root>
+  </artifact>
+</component>
