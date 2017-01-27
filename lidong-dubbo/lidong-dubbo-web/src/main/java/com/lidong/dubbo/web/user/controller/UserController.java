@@ -251,7 +251,7 @@ public class UserController {
     }
 
 
-    @RequestMapping("/upload"   )
+    @RequestMapping("/upload")
     public String addUser(@RequestParam("file") CommonsMultipartFile[] files,
                           HttpServletRequest request){
 
@@ -265,7 +265,7 @@ public class UserController {
 
 
 
-    @RequestMapping("/upload2"  )
+    @RequestMapping("/upload2")
     public String upload2(HttpServletRequest request,HttpServletResponse response) throws IllegalStateException, IOException {
         CommonsMultipartResolver multipartResolver = new CommonsMultipartResolver(request.getSession().getServletContext());
         try {

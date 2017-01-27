@@ -9,6 +9,7 @@ import java.util.Iterator;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.apache.commons.fileupload.disk.DiskFileItem;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
@@ -66,10 +67,14 @@ public class FileUtil {
                         //重命名上传后的文件名  
                         String fileName = "demoUpload" + file.getOriginalFilename();  
                         //定义上传路径  
-                        String path = "f:/img"+"/" + fileName;  
-                        File localFile = new File(path);  
-                        file.transferTo(localFile);  
-                    }  
+//                        String path = "f:/img"+"/" + fileName;
+//                        File localFile = new File(path);
+//                        file.transferTo(localFile);
+							CommonsMultipartFile cf= (CommonsMultipartFile)file;
+							DiskFileItem fi = (DiskFileItem)cf.getFileItem();
+							File inputFile = fi.getStoreLocation();
+							HdfsFileSystem.createFile(inputFile, "hdfs://localhost:9000/upload/"+fileName);
+                    }
                 }  
                 //记录上传该文件后的时间  
                 int finaltime = (int) System.currentTimeMillis();  

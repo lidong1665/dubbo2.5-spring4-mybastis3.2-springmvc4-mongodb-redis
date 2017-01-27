@@ -9,6 +9,12 @@
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/resources" />
+          <root url="file://$MODULE_DIR$/src/main/resources/config" />
+          <root url="file://$MODULE_DIR$/src/main/resources/spring" />
+          <root url="file://$MODULE_DIR$/src/main/java" />
+        </sourceRoots>
       </configuration>
     </facet>
   </component>
@@ -21,9 +27,10 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources/config" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources/spring" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/test" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="lidong-dubbo-api" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.3.RELEASE" level="project" />
@@ -40,5 +47,11 @@
     <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:3.3.0" level="project" />
     <orderEntry type="module" module-name="lidong-dubbo-model" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jms:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-test:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-messaging:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.activemq:activemq-all:5.11.4" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:4.3.3.RELEASE" level="project" />
+    <orderEntry type="module" module-name="lidong-dubbo-util" />
   </component>
 </module>

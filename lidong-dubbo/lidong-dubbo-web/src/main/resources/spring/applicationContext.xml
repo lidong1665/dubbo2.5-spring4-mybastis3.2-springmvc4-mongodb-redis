@@ -20,5 +20,6 @@
    
      <!-- 导入dubbo配置 -->  
     <import resource="spring-dubbo.xml"/>
-       
+
+
 </beans>  

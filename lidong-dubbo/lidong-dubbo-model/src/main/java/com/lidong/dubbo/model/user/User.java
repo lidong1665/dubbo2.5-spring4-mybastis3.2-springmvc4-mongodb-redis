@@ -11,6 +11,10 @@ import java.io.Serializable;
  * @email     :lidong1665@163.com
  */
 public class User implements Serializable {
+    /**
+     *
+     */
+    private static final long serialVersionUID = 658250125732806493L;
 
 
     private Integer id;

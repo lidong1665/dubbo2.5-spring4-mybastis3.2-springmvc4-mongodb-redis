@@ -28,7 +28,7 @@ public interface IUserMongDBDao {
      * @date May 13, 2016 3:07:39 PM 
      * @throws 
      */  
-    public UserInfo findById(String id); 
+     UserInfo findById(String id);
     /** 
      *  
      * @Title: findAll 
@@ -37,7 +37,7 @@ public interface IUserMongDBDao {
      * @date May 13, 2016 3:07:39 PM 
      * @throws 
      */  
-    public List<UserInfo> findByState(String state);
+     List<UserInfo> findByState(String state);
     
     
     
@@ -49,12 +49,12 @@ public interface IUserMongDBDao {
      * @date May 13, 2016 3:11:12 PM 
      * @throws 
      */  
-    public void updateUser(UserInfo user);
+     void updateUser(UserInfo user);
     
     /**
      * @param user
      */
-    public void insertUser(UserInfo user);
+     void insertUser(UserInfo user);
     
   
 	/**
@@ -65,5 +65,5 @@ public interface IUserMongDBDao {
 	 * @date May 13, 2016 3:11:01 PM
 	 * @throws
 	 */
-    public void removeUser(String userName);
+     void removeUser(String userName);
 }

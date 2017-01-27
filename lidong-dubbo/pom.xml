@@ -15,6 +15,7 @@
         <slf4j.version>1.7.12</slf4j.version>
         <log4j.version>1.2.17</log4j.version>
         <commons-lang3.version>3.4</commons-lang3.version>
+        <activemq.version>5.14.0</activemq.version>
     </properties>
 
 
@@ -268,6 +269,48 @@
                 <artifactId>log4mongo-java</artifactId>
                 <version>0.7.4</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.hadoop</groupId>
+                <artifactId>hadoop-client</artifactId>
+                <version>2.7.2</version>
+            </dependency>
+
+
+            <!-- 提供JMS，Freemarker,Quartz集成服务 -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context-support</artifactId>
+                <version>${srping.version}</version>
+            </dependency>
+
+            <!-- 集成JMS -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-jms</artifactId>
+                <version>${srping.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <artifactId>spring</artifactId>
+                        <groupId>org.springframework</groupId>
+                    </exclusion>
+                </exclusions>
+
+            </dependency>
+
+            <!-- xbean 如<amq:connectionFactory /> -->
+            <dependency>
+                <groupId>org.apache.xbean</groupId>
+                <artifactId>xbean-spring</artifactId>
+                <version>4.3</version>
+            </dependency>
+
+
+            <!-- Active MQ -->
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>activemq-all</artifactId>
+                <version>5.11.4</version>
+            </dependency>
         </dependencies>
 
 
@@ -278,11 +321,37 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>2.5.1</version>
-                    <configuration>
-                        <source>1.6</source>
-                        <target>1.6</target>
-                    </configuration>
                 </plugin>
+
+                <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-shade-plugin</artifactId>
+                        <version>1.6</version>
+                        <executions>
+                            <execution>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>shade</goal>
+                                </goals>
+                                <configuration>
+                                    <transformers>
+                                        <transformer
+                                                implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+                                            <resource>META-INF/spring.handlers</resource>
+                                        </transformer>
+                                        <transformer
+                                                implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+                                            <resource>spring.tooling</resource>
+                                        </transformer>
+                                        <transformer
+                                                implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+                                            <resource>META-INF/spring.schemas</resource>
+                                        </transformer>
+                                    </transformers>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
             </plugins>
         </pluginManagement>
     </build>
