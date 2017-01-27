@@ -12,13 +12,14 @@ dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis整合
 
  - dubbo2.5 
  - spring4
- -  mybastis3.2 
+ - mybastis3.2 
  - springmvc4 
  - spring-data-mongodb
  - spring-data-redis 
  - spring-session
  - spring-websocket
  - spring-quartz 定时处理
- -  druid（数据源） 
+ - druid（数据源） 
+ - spring-activemq 消息中间件
  - spring-aop统一收集web请求到通过log4j保存到mongodb
 
