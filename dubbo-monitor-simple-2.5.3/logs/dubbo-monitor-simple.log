@@ -1,0 +1,21 @@
+2017-01-28 13:40:07,700 [main] ERROR com.alibaba.dubbo.container.Main (Main.java:86) -  [DUBBO] Failed to start jetty server on 192.168.0.102:8080, cause: Address already in use, dubbo version: 2.5.3, current host: 192.168.0.102
+java.lang.IllegalStateException: Failed to start jetty server on 192.168.0.102:8080, cause: Address already in use
+	at com.alibaba.dubbo.container.jetty.JettyContainer.start(JettyContainer.java:80)
+	at com.alibaba.dubbo.container.Main.main(Main.java:80)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.mortbay.jetty.nio.SelectChannelConnector.open(SelectChannelConnector.java:216)
+	at org.mortbay.jetty.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:315)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.Server.doStart(Server.java:235)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at com.alibaba.dubbo.container.jetty.JettyContainer.start(JettyContainer.java:78)
+	... 1 more
+2017-01-28 13:49:44,916 [New I/O server worker #1-1] WARN  com.alibaba.dubbo.remoting.transport.AbstractServer (AbstractServer.java:197) -  [DUBBO] All clients has discontected from /127.0.0.1:7070. You can graceful shutdown now., dubbo version: 2.5.3, current host: 192.168.0.102
+2017-01-28 13:49:44,987 [New I/O server worker #1-3] WARN  com.alibaba.dubbo.remoting.transport.AbstractServer (AbstractServer.java:197) -  [DUBBO] All clients has discontected from /127.0.0.1:7070. You can graceful shutdown now., dubbo version: 2.5.3, current host: 192.168.0.102
+2017-01-28 13:51:00,311 [New I/O server worker #1-4] WARN  com.alibaba.dubbo.remoting.transport.AbstractServer (AbstractServer.java:197) -  [DUBBO] All clients has discontected from /127.0.0.1:7070. You can graceful shutdown now., dubbo version: 2.5.3, current host: 192.168.0.102
+2017-01-28 13:51:00,409 [New I/O server worker #1-5] WARN  com.alibaba.dubbo.remoting.transport.AbstractServer (AbstractServer.java:197) -  [DUBBO] All clients has discontected from /127.0.0.1:7070. You can graceful shutdown now., dubbo version: 2.5.3, current host: 192.168.0.102
