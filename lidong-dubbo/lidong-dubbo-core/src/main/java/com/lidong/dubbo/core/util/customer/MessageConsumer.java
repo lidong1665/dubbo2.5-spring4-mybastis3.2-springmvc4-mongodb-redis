@@ -16,11 +16,12 @@ import org.springframework.amqp.core.MessageListener;
  */
 public class MessageConsumer implements MessageListener {
 
-    private Logger logger = LoggerFactory.getLogger(MessageConsumer.class);
+	private Logger logger = LoggerFactory.getLogger(MessageConsumer.class);
 
 	@Override
 	public void onMessage(Message message) {
-		logger.info("receive message:{}",message);
+		logger.info("------消费者处理消息------");
+		logger.info("receive message",message);
 	}
 
 }

@@ -16,7 +16,7 @@
         </property>
     </bean>
 
-    <!-- 配置JMS连接工长 -->
+    <!-- 配置JMS连接 -->
     <bean id="jmsConnectionFactory"
           class="org.springframework.jms.connection.CachingConnectionFactory">
         <constructor-arg ref="amqConnectionFactory" />
