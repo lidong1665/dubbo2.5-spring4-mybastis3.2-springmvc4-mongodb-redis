@@ -13,12 +13,12 @@
     <!-- activemq -->
     <bean id="amqConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
         <property name="brokerURL">
-            <value>tcp://127.0.0.1:61616</value>
+            <value>tcp://192.168.1.208:61616</value>
         </property>
     </bean>
 
     <!-- 配置JMS连接工长 -->
-    <bean id="connectionFactory"
+    <bean id="jmsConnectionFactory"
           class="org.springframework.jms.connection.CachingConnectionFactory">
         <constructor-arg ref="amqConnectionFactory" />
         <property name="sessionCacheSize" value="100" />
@@ -44,7 +44,7 @@
 
     <!-- 配置JMS模板（Queue），Spring提供的JMS工具类，它发送、接收消息。 -->
     <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
-        <property name="connectionFactory" ref="connectionFactory" />
+        <property name="connectionFactory" ref="jmsConnectionFactory" />
         <property name="defaultDestination" ref="spitterQueue" />
         <property name="receiveTimeout" value="10000" />
         <!-- true是topic，false是queue，默认是false，此处显示写出false -->
@@ -54,10 +54,10 @@
     </bean>
 
     <bean id="spitterHandler"
-          class="com.lidong.dubbo.core.util.SpittleAlertHandler"/>
+          class="com.lidong.dubbo.core.util.customer.SpittleAlertHandler"/>
 
     <jms:listener-container destination-type="queue"
-                            connection-factory="connectionFactory"
+                            connection-factory="jmsConnectionFactory"
                             container-type="default"
                              message-converter="messageConverter">
         <jms:listener destination="spittle.alert.queue"

@@ -19,7 +19,7 @@
 	<!--监控中心-->
 	<!--监控中心协议，如果protocol="registry 表示从注册中心发现监控中心地址，否则直连监控中心"-->
 	<!--监控中心服务器地址  如192.168.1.111:7070-->
-	<!--<dubbo:monitor protocol="registry"/>-->
+	<dubbo:monitor protocol="registry"/>
 
 
 	<!-- 声明需要暴露的服务接口 -->
@@ -28,9 +28,11 @@
 	<dubbo:service interface="com.lidong.dubbo.api.user.service.IUserService" ref="userService" timeout="500000"/>
 	<bean id="loginService" class="com.lidong.dubbo.core.login.service.LoginServiceImp" />
 	<dubbo:service interface="com.lidong.dubbo.api.login.service.ILoginService" ref="loginService" timeout="500000"/>
-	<bean id="spittleService" class="com.lidong.dubbo.core.spittle.service.AlertSpittleServiceImp">
-	</bean>
+	<bean id="spittleService" class="com.lidong.dubbo.core.spittle.service.AlertSpittleServiceImp"></bean>
 	<dubbo:service interface="com.lidong.dubbo.api.spittle.service.IAlertService" ref="spittleService" timeout="500000"/>
 
+
+	<bean id="messageProducerService" class="com.lidong.dubbo.core.spittle.service.MessageProducerServiceImp"></bean>
+    <dubbo:service interface="com.lidong.dubbo.api.spittle.service.IMessageProducer" ref="messageProducerService" timeout="500000"/>
 
 </beans>

@@ -1,0 +1,190 @@
+COMMAND  PID   USER   FD     TYPE             DEVICE  SIZE/OFF     NODE NAME
+java    4130 lidong  cwd      DIR                1,4       204 13188737 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3
+java    4130 lidong  txt      REG                1,4    103632  1149578 /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/bin/java
+java    4130 lidong  txt      REG                1,4    166928 11743439 /System/Library/CoreServices/Encodings/libSimplifiedChineseConverter.dylib
+java    4130 lidong  txt      REG                1,4     49472  1149810 /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/libverify.dylib
+java    4130 lidong  txt      REG                1,4    216812  1149774 /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/libjava.dylib
+java    4130 lidong  txt      REG                1,4     32768 13337080 /private/var/folders/vl/zhy0vf8141vb8y5f6yx0dgrr0000gn/T/hsperfdata_lidong/4130
+java    4130 lidong  txt      REG                1,4     36680  1149811 /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/libzip.dylib
+java    4130 lidong  txt      REG                1,4    159040 10275532 /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaNativeFoundation.framework/Versions/A/JavaNativeFoundation
+java    4130 lidong  txt      REG                1,4  16123620  1149837 /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/server/libjvm.dylib
+java    4130 lidong  txt      REG                1,4  66610561  1149825 /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar
+java    4130 lidong  txt      REG                1,4    202272  8061568 /System/Library/Frameworks/JavaVM.framework/Versions/A/Frameworks/JavaRuntimeSupport.framework/Versions/A/JavaRuntimeSupport
+java    4130 lidong  txt      REG                1,4    105200 10275545 /System/Library/Frameworks/JavaVM.framework/Versions/A/JavaVM
+java    4130 lidong  txt      REG                1,4     95040 10275522 /System/Library/PrivateFrameworks/JavaLaunching.framework/Versions/A/JavaLaunching
+java    4130 lidong  txt      REG                1,4      6476 10274925 /System/Library/Java/Extensions/AppleScriptEngine.jar
+java    4130 lidong  txt      REG                1,4     17780 10276481 /System/Library/Java/Extensions/dns_sd.jar
+java    4130 lidong  txt      REG                1,4   1223496 10274918 /System/Library/Java/Extensions/j3daudio.jar
+java    4130 lidong  txt      REG                1,4   1157355 10274919 /System/Library/Java/Extensions/j3dcore.jar
+java    4130 lidong  txt      REG                1,4    685308 10274920 /System/Library/Java/Extensions/j3dutils.jar
+java    4130 lidong  txt      REG                1,4    275499 10274914 /System/Library/Java/Extensions/jai_codec.jar
+java    4130 lidong  txt      REG                1,4   1544542 10274915 /System/Library/Java/Extensions/jai_core.jar
+java    4130 lidong  txt      REG                1,4     41239 10274917 /System/Library/Java/Extensions/mlibwrapper_jai.jar
+java    4130 lidong  txt      REG                1,4     12847 10275001 /System/Library/Java/Extensions/MRJToolkit.jar
+java    4130 lidong  txt      REG                1,4    127640 10274924 /System/Library/Java/Extensions/vecmath.jar
+java    4130 lidong  txt      REG                1,4     19174 13188771 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/bsf-api-3.1.jar
+java    4130 lidong  txt      REG                1,4     35119 13188803 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/cache-api-0.4.jar
+java    4130 lidong  txt      REG                1,4     58160 13188766 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/commons-codec-1.4.jar
+java    4130 lidong  txt      REG                1,4    279193 13188793 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/commons-lang-2.5.jar
+java    4130 lidong  txt      REG                1,4     60686 13188752 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/commons-logging-1.1.1.jar
+java    4130 lidong  txt      REG                1,4    100193 13188800 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/commons-pool-1.5.5.jar
+java    4130 lidong  txt      REG                1,4     44177 13188776 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/curator-client-1.1.16.jar
+java    4130 lidong  txt      REG                1,4    130419 13188775 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/curator-framework-1.1.16.jar
+java    4130 lidong  txt      REG                1,4    983612 13188781 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/cxf-api-2.6.1.jar
+java    4130 lidong  txt      REG                1,4    187960 13188789 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/cxf-rt-bindings-soap-2.6.1.jar
+java    4130 lidong  txt      REG                1,4    352546 13188787 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/cxf-rt-core-2.6.1.jar
+java    4130 lidong  txt      REG                1,4    108455 13188790 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/cxf-rt-databinding-jaxb-2.6.1.jar
+java    4130 lidong  txt      REG                1,4     63535 13188780 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/cxf-rt-frontend-simple-2.6.1.jar
+java    4130 lidong  txt      REG                1,4    214508 13188791 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/cxf-rt-transports-http-2.6.1.jar
+java    4130 lidong  txt      REG                1,4   1431224 13188748 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/dubbo-2.5.3.jar
+java    4130 lidong  txt      REG                1,4     44120 13188804 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/dubbo-monitor-simple-2.5.3.jar
+java    4130 lidong  txt      REG                1,4    295771 13188767 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/fastjson-1.1.8.jar
+java    4130 lidong  txt      REG                1,4    223298 13188785 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/geronimo-javamail_1.4_spec-1.7.1.jar
+java    4130 lidong  txt      REG                1,4     21817 13188760 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/gmbal-api-only-3.0.0-b023.jar
+java    4130 lidong  txt      REG                1,4    708175 13188758 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/grizzly-core-2.1.4.jar
+java    4130 lidong  txt      REG                1,4    692189 13188759 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/grizzly-framework-2.1.4.jar
+java    4130 lidong  txt      REG                1,4     16918 13188762 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/grizzly-portunif-2.1.4.jar
+java    4130 lidong  txt      REG                1,4      8117 13188763 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/grizzly-rcm-2.1.4.jar
+java    4130 lidong  txt      REG                1,4   1649781 13188777 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/guava-11.0.1.jar
+java    4130 lidong  txt      REG                1,4    384337 13188794 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/hessian-4.0.7.jar
+java    4130 lidong  txt      REG                1,4    366592 13188802 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/hibernate-validator-4.2.0.Final.jar
+java    4130 lidong  txt      REG                1,4    352254 13188764 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/httpclient-4.1.2.jar
+java    4130 lidong  txt      REG                1,4    181200 13188765 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/httpcore-4.1.2.jar
+java    4130 lidong  txt      REG                1,4    648253 13188750 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/javassist-3.15.0-GA.jar
+java    4130 lidong  txt      REG                1,4    876610 13188788 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/jaxb-impl-2.1.13.jar
+java    4130 lidong  txt      REG                1,4    488686 13188755 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/jcommon-1.0.16.jar
+java    4130 lidong  txt      REG                1,4    139428 13188799 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/jedis-2.1.0.jar
+java    4130 lidong  txt      REG                1,4    539912 13188796 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/jetty-6.1.26.jar
+java    4130 lidong  txt      REG                1,4    177131 13188797 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/jetty-util-6.1.26.jar
+java    4130 lidong  txt      REG                1,4   1425742 13188754 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/jfreechart-1.0.13.jar
+java    4130 lidong  txt      REG                1,4     87325 13188773 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/jline-0.9.94.jar
+java    4130 lidong  txt      REG                1,4     33015 13188778 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/jsr305-1.3.9.jar
+java    4130 lidong  txt      REG                1,4    336580 13188792 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/libthrift-0.8.0.jar
+java    4130 lidong  txt      REG                1,4    481535 13188749 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/log4j-1.2.16.jar
+java    4130 lidong  txt      REG                1,4     42212 13188761 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/management-api-3.0.0-b012.jar
+java    4130 lidong  txt      REG                1,4    315583 13188756 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/mina-core-1.1.7.jar
+java    4130 lidong  txt      REG                1,4    792314 13188753 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/netty-3.2.5.Final.jar
+java    4130 lidong  txt      REG                1,4    134133 13188798 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/servlet-api-2.5-20081211.jar
+java    4130 lidong  txt      REG                1,4    105112 13188795 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/servlet-api-2.5.jar
+java    4130 lidong  txt      REG                1,4     25689 13188757 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/slf4j-api-1.6.2.jar
+java    4130 lidong  txt      REG                1,4   2949268 13188751 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/spring-2.5.6.SEC03.jar
+java    4130 lidong  txt      REG                1,4    182112 13188783 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/stax2-api-3.1.1.jar
+java    4130 lidong  txt      REG                1,4     47433 13188801 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/validation-api-1.0.0.GA.jar
+java    4130 lidong  txt      REG                1,4    478935 13188782 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/woodstox-core-asl-4.1.2.jar
+java    4130 lidong  txt      REG                1,4    148429 13188786 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/wsdl4j-1.6.2.jar
+java    4130 lidong  txt      REG                1,4    422074 13188779 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/xmemcached-1.3.6.jar
+java    4130 lidong  txt      REG                1,4      7188 13188769 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/xmlpull-1.1.3.1.jar
+java    4130 lidong  txt      REG                1,4    162812 13188784 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/xmlschema-core-2.0.2.jar
+java    4130 lidong  txt      REG                1,4     24956 13188770 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/xpp3_min-1.1.4c.jar
+java    4130 lidong  txt      REG                1,4    495701 13188768 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/xstream-1.4.1.jar
+java    4130 lidong  txt      REG                1,4     62913 13188774 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/zkclient-0.1.jar
+java    4130 lidong  txt      REG                1,4    601677 13188772 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/zookeeper-3.3.3.jar
+java    4130 lidong  txt      REG                1,4   3860522  1149705 /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/ext/cldrdata.jar
+java    4130 lidong  txt      REG                1,4   1178848  1149709 /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/ext/localedata.jar
+java    4130 lidong  txt      REG                1,4   3501646  1149824 /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/resources.jar
+java    4130 lidong  txt      REG                1,4     53576  1149792 /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/libmanagement.dylib
+java    4130 lidong  txt      REG                1,4     90788  1149794 /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/libnet.dylib
+java    4130 lidong  txt      REG                1,4     61460  1149795 /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/libnio.dylib
+java    4130 lidong  txt      REG                1,4    694528 11792705 /usr/lib/dyld
+java    4130 lidong  txt      REG                1,4  25918784 11794407 /usr/share/icu/icudt57l.dat
+java    4130 lidong  txt      REG                1,4 656064512 12951018 /private/var/db/dyld/dyld_shared_cache_x86_64h
+java    4130 lidong    0r     CHR                3,2       0t0      304 /dev/null
+java    4130 lidong    1w     REG                1,4       737 13190019 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/logs/stdout.log
+java    4130 lidong    2w     REG                1,4       737 13190019 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/logs/stdout.log
+java    4130 lidong    3r     REG                1,4  66610561  1149825 /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/rt.jar
+java    4130 lidong    4r     REG                1,4      6476 10274925 /System/Library/Java/Extensions/AppleScriptEngine.jar
+java    4130 lidong    5r     REG                1,4     17780 10276481 /System/Library/Java/Extensions/dns_sd.jar
+java    4130 lidong    6r     REG                1,4   1223496 10274918 /System/Library/Java/Extensions/j3daudio.jar
+java    4130 lidong    7r     REG                1,4   1157355 10274919 /System/Library/Java/Extensions/j3dcore.jar
+java    4130 lidong    8r     REG                1,4    685308 10274920 /System/Library/Java/Extensions/j3dutils.jar
+java    4130 lidong    9r     REG                1,4    275499 10274914 /System/Library/Java/Extensions/jai_codec.jar
+java    4130 lidong   10r     REG                1,4   1544542 10274915 /System/Library/Java/Extensions/jai_core.jar
+java    4130 lidong   11r     REG                1,4     41239 10274917 /System/Library/Java/Extensions/mlibwrapper_jai.jar
+java    4130 lidong   12r     REG                1,4     12847 10275001 /System/Library/Java/Extensions/MRJToolkit.jar
+java    4130 lidong   13r     REG                1,4    127640 10274924 /System/Library/Java/Extensions/vecmath.jar
+java    4130 lidong   14r     REG                1,4     19174 13188771 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/bsf-api-3.1.jar
+java    4130 lidong   15r     REG                1,4     35119 13188803 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/cache-api-0.4.jar
+java    4130 lidong   16r     REG                1,4     58160 13188766 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/commons-codec-1.4.jar
+java    4130 lidong   17r     REG                1,4    279193 13188793 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/commons-lang-2.5.jar
+java    4130 lidong   18r     REG                1,4     60686 13188752 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/commons-logging-1.1.1.jar
+java    4130 lidong   19r     REG                1,4    100193 13188800 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/commons-pool-1.5.5.jar
+java    4130 lidong   20r     REG                1,4     44177 13188776 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/curator-client-1.1.16.jar
+java    4130 lidong   21r     REG                1,4    130419 13188775 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/curator-framework-1.1.16.jar
+java    4130 lidong   22r     REG                1,4    983612 13188781 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/cxf-api-2.6.1.jar
+java    4130 lidong   23r     REG                1,4    187960 13188789 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/cxf-rt-bindings-soap-2.6.1.jar
+java    4130 lidong   24r     REG                1,4    352546 13188787 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/cxf-rt-core-2.6.1.jar
+java    4130 lidong   25r     REG                1,4    108455 13188790 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/cxf-rt-databinding-jaxb-2.6.1.jar
+java    4130 lidong   26r     REG                1,4     63535 13188780 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/cxf-rt-frontend-simple-2.6.1.jar
+java    4130 lidong   27r     REG                1,4    214508 13188791 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/cxf-rt-transports-http-2.6.1.jar
+java    4130 lidong   28r     REG                1,4   1431224 13188748 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/dubbo-2.5.3.jar
+java    4130 lidong   29r     REG                1,4     44120 13188804 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/dubbo-monitor-simple-2.5.3.jar
+java    4130 lidong   30r     REG                1,4    295771 13188767 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/fastjson-1.1.8.jar
+java    4130 lidong   31r     REG                1,4    223298 13188785 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/geronimo-javamail_1.4_spec-1.7.1.jar
+java    4130 lidong   32r     REG                1,4     21817 13188760 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/gmbal-api-only-3.0.0-b023.jar
+java    4130 lidong   33r     REG                1,4    708175 13188758 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/grizzly-core-2.1.4.jar
+java    4130 lidong   34r     REG                1,4    692189 13188759 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/grizzly-framework-2.1.4.jar
+java    4130 lidong   35r     REG                1,4     16918 13188762 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/grizzly-portunif-2.1.4.jar
+java    4130 lidong   36r     REG                1,4      8117 13188763 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/grizzly-rcm-2.1.4.jar
+java    4130 lidong   37r     REG                1,4   1649781 13188777 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/guava-11.0.1.jar
+java    4130 lidong   38r     REG                1,4    384337 13188794 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/hessian-4.0.7.jar
+java    4130 lidong   39r     REG                1,4    366592 13188802 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/hibernate-validator-4.2.0.Final.jar
+java    4130 lidong   40r     REG                1,4    352254 13188764 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/httpclient-4.1.2.jar
+java    4130 lidong   41r     REG                1,4    181200 13188765 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/httpcore-4.1.2.jar
+java    4130 lidong   42r     REG                1,4    648253 13188750 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/javassist-3.15.0-GA.jar
+java    4130 lidong   43r     REG                1,4    876610 13188788 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/jaxb-impl-2.1.13.jar
+java    4130 lidong   44r     REG                1,4    488686 13188755 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/jcommon-1.0.16.jar
+java    4130 lidong   45r     REG                1,4    139428 13188799 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/jedis-2.1.0.jar
+java    4130 lidong   46r     REG                1,4    539912 13188796 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/jetty-6.1.26.jar
+java    4130 lidong   47r     REG                1,4    177131 13188797 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/jetty-util-6.1.26.jar
+java    4130 lidong   48r     REG                1,4   1425742 13188754 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/jfreechart-1.0.13.jar
+java    4130 lidong   49r     REG                1,4     87325 13188773 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/jline-0.9.94.jar
+java    4130 lidong   50r     REG                1,4     33015 13188778 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/jsr305-1.3.9.jar
+java    4130 lidong   51r     REG                1,4    336580 13188792 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/libthrift-0.8.0.jar
+java    4130 lidong   52r     REG                1,4    481535 13188749 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/log4j-1.2.16.jar
+java    4130 lidong   53r     REG                1,4     42212 13188761 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/management-api-3.0.0-b012.jar
+java    4130 lidong   54r     REG                1,4    315583 13188756 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/mina-core-1.1.7.jar
+java    4130 lidong   55r     REG                1,4    792314 13188753 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/netty-3.2.5.Final.jar
+java    4130 lidong   56r     REG                1,4    134133 13188798 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/servlet-api-2.5-20081211.jar
+java    4130 lidong   57r     REG                1,4    105112 13188795 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/servlet-api-2.5.jar
+java    4130 lidong   58r     REG                1,4     25689 13188757 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/slf4j-api-1.6.2.jar
+java    4130 lidong   59r     REG                1,4   2949268 13188751 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/spring-2.5.6.SEC03.jar
+java    4130 lidong   60r     REG                1,4    182112 13188783 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/stax2-api-3.1.1.jar
+java    4130 lidong   61r     REG                1,4     47433 13188801 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/validation-api-1.0.0.GA.jar
+java    4130 lidong   62r     REG                1,4    478935 13188782 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/woodstox-core-asl-4.1.2.jar
+java    4130 lidong   63r     REG                1,4    148429 13188786 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/wsdl4j-1.6.2.jar
+java    4130 lidong   64r     REG                1,4    422074 13188779 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/xmemcached-1.3.6.jar
+java    4130 lidong   65r     REG                1,4      7188 13188769 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/xmlpull-1.1.3.1.jar
+java    4130 lidong   66r     REG                1,4    162812 13188784 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/xmlschema-core-2.0.2.jar
+java    4130 lidong   67r     REG                1,4     24956 13188770 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/xpp3_min-1.1.4c.jar
+java    4130 lidong   68r     REG                1,4    495701 13188768 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/xstream-1.4.1.jar
+java    4130 lidong   69r     REG                1,4     62913 13188774 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/zkclient-0.1.jar
+java    4130 lidong   70r     REG                1,4    601677 13188772 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/lib/zookeeper-3.3.3.jar
+java    4130 lidong   71u    IPv4 0x72a548a80027c935       0t0      TCP 192.168.1.116:arcp->192.168.1.116:62195 (ESTABLISHED)
+java    4130 lidong   72r     REG                1,4   3860522  1149705 /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/ext/cldrdata.jar
+java    4130 lidong   73r     REG                1,4   1178848  1149709 /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/ext/localedata.jar
+java    4130 lidong   74w     REG                1,4     50031 13337081 /Users/lidong/CHNI_PROJECT/dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis/dubbo-monitor-simple-2.5.3/logs/dubbo-monitor-simple.log
+java    4130 lidong   75r     REG                1,4   3501646  1149824 /Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/resources.jar
+java    4130 lidong   76u   systm                          0t0          
+java    4130 lidong   77u    unix 0x72a548a8098961fd       0t0          ->0x72a548a809898845
+java    4130 lidong   78u    IPv4 0x72a548a8027d303d       0t0      TCP *:arcp (LISTEN)
+java    4130 lidong   79u    unix 0x72a548a809896455       0t0          ->(none)
+java    4130 lidong   80     PIPE 0x72a548a7fd029a4d     16384          ->0x72a548a7fd0298cd
+java    4130 lidong   81     PIPE 0x72a548a7fd0298cd     16384          ->0x72a548a7fd029a4d
+java    4130 lidong   82u  KQUEUE                                       count=0, state=0xa
+java    4130 lidong   83u    IPv4 0x72a548a807cf1365       0t0      TCP 192.168.1.116:arcp->192.168.1.116:62121 (ESTABLISHED)
+java    4130 lidong   84     PIPE 0x72a548a8064420cd     16384          ->0x72a548a8064423cd
+java    4130 lidong   85     PIPE 0x72a548a8064423cd     16384          ->0x72a548a8064420cd
+java    4130 lidong   86     PIPE 0x72a548a80737e80d     16384          ->0x72a548a80737ebcd
+java    4130 lidong   87u    unix 0x72a548a8098982cd       0t0          ->(none)
+java    4130 lidong   88     PIPE 0x72a548a80737ea4d     16384          ->0x72a548a80737c40d
+java    4130 lidong   89     PIPE 0x72a548a80737ebcd     16384          ->0x72a548a80737e80d
+java    4130 lidong   90u  KQUEUE                                       count=0, state=0xa
+java    4130 lidong   91u    IPv4 0x72a548a809bed935       0t0      TCP *:us-srv (LISTEN)
+java    4130 lidong   92u    unix 0x72a548a800f23c2d       0t0          /var/folders/vl/zhy0vf8141vb8y5f6yx0dgrr0000gn/T//.java_pid4130.tmp
+java    4130 lidong   95u  KQUEUE                                       count=0, state=0xa
+java    4130 lidong   96     PIPE 0x72a548a80644224d     16384          ->0x72a548a80644248d
+java    4130 lidong   97     PIPE 0x72a548a80644248d     16384          ->0x72a548a80644224d
+java    4130 lidong   98u  KQUEUE                                       count=0, state=0xa
+java    4130 lidong  103     PIPE 0x72a548a80737c40d     16384          ->0x72a548a80737ea4d
+java    4130 lidong  104u  KQUEUE                                       count=0, state=0xa
+java    4130 lidong  105u    IPv4 0x72a548a8027cc365       0t0      TCP localhost:62112->localhost:eforward (ESTABLISHED)

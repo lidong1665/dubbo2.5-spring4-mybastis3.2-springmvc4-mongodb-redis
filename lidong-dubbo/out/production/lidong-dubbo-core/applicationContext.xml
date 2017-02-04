@@ -37,4 +37,8 @@
     <!-- 导入quartz配置 -->
     <import resource="classpath:spring-activemq.xml"/>
 
+    <!-- 导入quartz配置 -->
+    <import resource="classpath:spring-rabbitmq.xml"/>
+
+
 </beans>

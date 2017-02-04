@@ -4,18 +4,22 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans    
                         http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
 
-	<!-- 引入配置文件 <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"> 
+
+	<!-- 引入配置文件 <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 		<property name="location" value="classpath:jdbc.properties" /> </bean> -->
 	<bean id="propertyConfigurer"
-		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		  class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 		<property name="locations">
 			<list>
 				<value>classpath:config/jdbc.properties</value>
 				<value>classpath:config/mongo.properties</value>
 				<value>classpath:config/redis.properties</value>
+				<value>classpath:config/rabbit.properties</value>
+				<value>classpath:config/activemq.properties</value>
 			</list>
 		</property>
 	</bean>
+
 
 	<bean id="statFilter" class="com.alibaba.druid.filter.stat.StatFilter"
 		lazy-init="true">

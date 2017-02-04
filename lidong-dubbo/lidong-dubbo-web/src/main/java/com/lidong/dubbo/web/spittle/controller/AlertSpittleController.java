@@ -2,6 +2,7 @@ package com.lidong.dubbo.web.spittle.controller;
 
 
 import com.lidong.dubbo.api.spittle.service.IAlertService;
+import com.lidong.dubbo.api.spittle.service.IMessageProducer;
 import com.lidong.dubbo.model.user.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,6 +28,9 @@ public class AlertSpittleController{
 
     @Autowired
     private IAlertService iAlertService;
+
+    @Autowired
+    private IMessageProducer iMessageProducer;
     private Logger logger = LoggerFactory.getLogger(AlertSpittleController.class);
 
 
@@ -42,4 +46,16 @@ public class AlertSpittleController{
         iAlertService.sendSpittleAlert(user);
     }
 
+
+    @RequestMapping("/sendRabbitMessage")
+    @ResponseBody
+    public  void  sendRabbitMessage(){
+        logger.info("--------------------");
+        User user = new User();
+        user.setName("lidong");
+        user.setAge(25);
+        user.setPassword("123456");
+        user.setId(12);
+        iMessageProducer.sendMessage(user);
+    }
 }
