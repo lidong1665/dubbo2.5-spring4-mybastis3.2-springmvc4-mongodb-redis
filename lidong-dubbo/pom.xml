@@ -328,6 +328,23 @@
                 <version>${spring-rabbit.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi</artifactId>
+                <version>3.14</version>
+            </dependency>
+
+            <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-engine</artifactId>
+            <version>5.18.0</version>
+            </dependency>
+
+         <dependency>
+           <groupId>org.activiti</groupId>
+           <artifactId>activiti-spring</artifactId>
+           <version>5.18.0</version>
+         </dependency>
         </dependencies>
 
 
@@ -363,6 +380,11 @@
                                         <transformer
                                                 implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
                                             <resource>META-INF/spring.schemas</resource>
+                                        </transformer>
+
+                                        <transformer
+                                                implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+                                            <resource>META-INF/spring.factories</resource>
                                         </transformer>
                                     </transformers>
                                 </configuration>

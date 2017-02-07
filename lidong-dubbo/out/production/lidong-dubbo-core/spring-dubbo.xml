@@ -30,9 +30,11 @@
 	<dubbo:service interface="com.lidong.dubbo.api.login.service.ILoginService" ref="loginService" timeout="500000"/>
 	<bean id="spittleService" class="com.lidong.dubbo.core.spittle.service.AlertSpittleServiceImp"></bean>
 	<dubbo:service interface="com.lidong.dubbo.api.spittle.service.IAlertService" ref="spittleService" timeout="500000"/>
-
-
 	<bean id="messageProducerService" class="com.lidong.dubbo.core.spittle.service.MessageProducerServiceImp"></bean>
     <dubbo:service interface="com.lidong.dubbo.api.spittle.service.IMessageProducer" ref="messageProducerService" timeout="500000"/>
+
+
+	<bean id="workFlowService" class="com.lidong.dubbo.core.workflow.service.WorkFlowserviceImp"></bean>
+	<dubbo:service interface="com.lidong.dubbo.api.workflow.service.IWorkFlowservice" ref="workFlowService" timeout="500000"/>
 
 </beans>

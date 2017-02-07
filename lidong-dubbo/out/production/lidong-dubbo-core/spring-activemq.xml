@@ -12,12 +12,11 @@
 
     <!-- activemq -->
     <bean id="amqConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
-        <property name="brokerURL">
-            <value>tcp://192.168.1.208:61616</value>
+        <property name="brokerURL" value="${activemq_url}">
         </property>
     </bean>
 
-    <!-- 配置JMS连接工长 -->
+    <!-- 配置JMS连接 -->
     <bean id="jmsConnectionFactory"
           class="org.springframework.jms.connection.CachingConnectionFactory">
         <constructor-arg ref="amqConnectionFactory" />

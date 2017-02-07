@@ -15,6 +15,7 @@
 				<value>classpath:config/mongo.properties</value>
 				<value>classpath:config/redis.properties</value>
 				<value>classpath:config/rabbit.properties</value>
+				<value>classpath:config/activemq.properties</value>
 			</list>
 		</property>
 	</bean>

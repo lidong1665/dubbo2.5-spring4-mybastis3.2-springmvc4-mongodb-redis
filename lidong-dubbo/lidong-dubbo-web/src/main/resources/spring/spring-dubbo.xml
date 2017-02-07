@@ -28,4 +28,7 @@
                      interface="com.lidong.dubbo.api.spittle.service.IAlertService" />
     <dubbo:reference id="messageProducerService"
                      interface="com.lidong.dubbo.api.spittle.service.IMessageProducer"/>
-</beans>  
+    <dubbo:reference id="workFlowService"
+                     interface="com.lidong.dubbo.api.workflow.service.IWorkFlowservice"/>
+
+</beans>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BPMNEditorStateService">
+    <stateFile url="file://$PROJECT_DIR$/lidong-dubbo-core/src/main/resources/process/purchase.bpmn">
+      <view grid="false" />
+    </stateFile>
+    <stateFile url="file://$PROJECT_DIR$/lidong-dubbo-core/src/main/resources/process/leave.bpmn">
+      <view grid="false" />
+    </stateFile>
+    <stateFile url="file://$PROJECT_DIR$/lidong-dubbo-core/src/main/resources/process/leavehello.bpmn">
+      <view grid="false" />
+    </stateFile>
+  </component>
+</project>

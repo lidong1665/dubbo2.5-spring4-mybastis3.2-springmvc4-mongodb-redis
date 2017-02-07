@@ -33,4 +33,8 @@ public class MessageProducerServiceImp implements IMessageProducer {
         logger.info("to send message:{}",message);
         amqpTemplate.convertAndSend("queueTestKey",message);
     }
+
+
+
+
 }

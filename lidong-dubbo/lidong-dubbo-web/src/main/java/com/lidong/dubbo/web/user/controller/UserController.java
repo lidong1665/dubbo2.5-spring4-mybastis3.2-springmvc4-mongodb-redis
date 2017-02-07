@@ -3,6 +3,7 @@ package com.lidong.dubbo.web.user.controller;
 import com.lidong.dubbo.api.login.service.ILoginService;
 import com.lidong.dubbo.api.user.service.IUserService;
 import com.lidong.dubbo.model.user.User;
+import com.lidong.dubbo.util.FastDFSUtil;
 import com.lidong.dubbo.util.FileUtil;
 import com.lidong.dubbo.util.JsonUtil;
 import org.slf4j.Logger;
@@ -256,8 +257,20 @@ public class UserController {
                           HttpServletRequest request){
 
         for(int i = 0;i<files.length;i++){
-            System.out.println("fileName-->" + files[i].getOriginalFilename()+"     file-size--->"+files[i].getSize());
-            FileUtil.saveImage(files, i);
+            logger.info("fileName-->" + files[i].getOriginalFilename()+"     file-size--->"+files[i].getSize());
+            Map<String, Object> retMap = FastDFSUtil.upload(files[i]);
+            String code = (String) retMap.get("code");
+            String group = (String) retMap.get("group");
+            String msg = (String) retMap.get("msg");
+
+            if ("0000".equals(code)){
+                logger.info("文件上传成功");
+                //TODO:将上传文件的路径保存到mysql数据库
+            }else {
+                logger.info("文件上传失败");
+            }
+
+
         }
         return "/success";
     }

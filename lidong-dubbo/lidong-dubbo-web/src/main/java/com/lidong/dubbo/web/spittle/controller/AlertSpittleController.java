@@ -3,6 +3,7 @@ package com.lidong.dubbo.web.spittle.controller;
 
 import com.lidong.dubbo.api.spittle.service.IAlertService;
 import com.lidong.dubbo.api.spittle.service.IMessageProducer;
+import com.lidong.dubbo.api.workflow.service.IWorkFlowservice;
 import com.lidong.dubbo.model.user.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,6 +32,9 @@ public class AlertSpittleController{
 
     @Autowired
     private IMessageProducer iMessageProducer;
+
+    @Autowired
+    private IWorkFlowservice iWorkFlowservice;
     private Logger logger = LoggerFactory.getLogger(AlertSpittleController.class);
 
 
@@ -57,5 +61,16 @@ public class AlertSpittleController{
         user.setPassword("123456");
         user.setId(12);
         iMessageProducer.sendMessage(user);
+    }
+
+    @RequestMapping("/testEvent")
+    @ResponseBody
+    public  void  testEvent(){
+        logger.info("--------------------");
+        try {
+            iWorkFlowservice.testEvent();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }

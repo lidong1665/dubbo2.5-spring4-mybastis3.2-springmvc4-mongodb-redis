@@ -137,6 +137,15 @@
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.3.3" />
           <element id="library" level="project" name="Maven: org.springframework.retry:spring-retry:1.2.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.amqp:spring-amqp:1.7.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.poi:poi:3.14" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-engine:5.18.0" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-bpmn-converter:5.18.0" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-bpmn-model:5.18.0" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-process-validation:5.18.0" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-image-generator:5.18.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-email:1.4" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.6" />
+          <element id="library" level="project" name="Maven: org.activiti:activiti-spring:5.18.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">

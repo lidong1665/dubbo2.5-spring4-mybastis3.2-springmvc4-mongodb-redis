@@ -1,9 +1,6 @@
 package com.lidong.dubbo.util;
 
-import java.io.ByteArrayInputStream;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 import java.util.Date;
 import java.util.Iterator;
 
@@ -82,8 +79,31 @@ public class FileUtil {
             }  
               
         }
-	}  
-    
-	
+	}
+
+	/**
+	 *
+	 * @param f
+	 * @return
+	 */
+	public static byte[] getBytesFromFile(File f){
+		if (f == null) {
+			return null;
+		}
+		try {
+			FileInputStream stream = new FileInputStream(f);
+			ByteArrayOutputStream out = new ByteArrayOutputStream(1000);
+			byte[] b = new byte[1000];
+			for (int n;(n = stream.read(b)) != -1;) {
+				out.write(b, 0, n);
+			}
+			stream.close();
+			out.close();
+			return out.toByteArray();
+		} catch (IOException e) {
+
+		}
+		return null;
+	}
 
 }
