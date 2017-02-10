@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:jms="http://www.springframework.org/schema/jms"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+         http://www.springframework.org/schema/jms
+         http://www.springframework.org/schema/jms/spring-jms.xsd">
+    <description>application-context-activemqconfig</description>
+
+    <jms:annotation-driven/>
+
+    <!-- activemq -->
+    <bean id="amqConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+        <property name="brokerURL" value="${activemq_url}">
+        </property>
+    </bean>
+
+    <!-- 配置JMS连接 -->
+    <bean id="jmsConnectionFactory"
+          class="org.springframework.jms.connection.CachingConnectionFactory">
+        <constructor-arg ref="amqConnectionFactory" />
+        <property name="sessionCacheSize" value="100" />
+    </bean>
+
+    <!-- 定义消息队列（Queue）消息的目的地 -->
+    <bean id="spitterQueue" class="org.apache.activemq.command.ActiveMQQueue">
+        <!-- 设置消息队列的名字 -->
+        <constructor-arg>
+            <value>spittle.alert.queue</value>
+        </constructor-arg>
+    </bean>
+
+    <bean id="spitterTopic" class="org.apache.activemq.command.ActiveMQTopic">
+        <!-- 设置消息队列的名字 -->
+        <constructor-arg>
+            <value>spitter.topic</value>
+        </constructor-arg>
+    </bean>
+    <!-- 消息转换器-->
+    <bean id="messageConverter"
+          class="org.springframework.jms.support.converter.SimpleMessageConverter"/>
+
+    <!-- 配置JMS模板（Queue），Spring提供的JMS工具类，它发送、接收消息。 -->
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <property name="connectionFactory" ref="jmsConnectionFactory" />
+        <property name="defaultDestination" ref="spitterQueue" />
+        <property name="receiveTimeout" value="10000" />
+        <!-- true是topic，false是queue，默认是false，此处显示写出false -->
+        <property name="pubSubDomain" value="false" />
+
+        <property name="messageConverter" ref="messageConverter"/>
+    </bean>
+
+    <bean id="spitterHandler"
+          class="com.lidong.dubbo.core.util.customer.SpittleAlertHandler"/>
+
+    <jms:listener-container destination-type="queue"
+                            connection-factory="jmsConnectionFactory"
+                            container-type="default"
+                             message-converter="messageConverter">
+        <jms:listener destination="spittle.alert.queue"
+                      ref="spitterHandler" />
+    </jms:listener-container>
+
+
+</beans>

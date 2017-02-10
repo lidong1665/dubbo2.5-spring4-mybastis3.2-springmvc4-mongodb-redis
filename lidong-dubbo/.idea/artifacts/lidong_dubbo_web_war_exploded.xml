@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="lidong-dubbo-web:war exploded">
+  <artifact type="exploded-war" build-on-make="true" name="lidong-dubbo-web:war exploded">
     <output-path>$PROJECT_DIR$/lidong-dubbo-web/target/lidong-dubbo-web</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
@@ -41,7 +41,7 @@
           <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.4" />
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.12" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.21" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.4" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.7.7" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.7.7" />
@@ -57,9 +57,10 @@
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:1.12.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.21" />
           <element id="library" level="project" name="Maven: org.mongodb:mongo-java-driver:3.3.0" />
-          <element id="library" level="project" name="Maven: redis.clients:jedis:2.8.0" />
-          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.3" />
-          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:1.6.2.RELEASE" />
+          <element id="library" level="project" name="Maven: redis.clients:jedis:2.9.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.4.2" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:1.8.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-keyvalue:1.2.0.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.session:spring-session:1.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.5.3" />
           <element id="library" level="project" name="Maven: org.javassist:javassist:3.15.0-GA" />

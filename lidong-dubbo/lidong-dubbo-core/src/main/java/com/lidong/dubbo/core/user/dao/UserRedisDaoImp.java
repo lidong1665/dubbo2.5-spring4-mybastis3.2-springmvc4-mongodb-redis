@@ -19,7 +19,7 @@ public class UserRedisDaoImp extends BaseRedisTemplete<User>
 	@Override
 	public void saveUser(String key,User user) {
 		 redisTemplate.opsForValue().set(key, user);
-		 
+
 	}
 
 	@Override

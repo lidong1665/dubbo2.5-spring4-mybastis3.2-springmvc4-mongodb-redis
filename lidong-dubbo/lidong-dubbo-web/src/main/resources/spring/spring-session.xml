@@ -9,5 +9,6 @@
 		class="org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration">
 		<!-- sesson的有效时间是30分钟 -->
 		<property name="maxInactiveIntervalInSeconds" value="1800" />
+
 	</bean>
 </beans>

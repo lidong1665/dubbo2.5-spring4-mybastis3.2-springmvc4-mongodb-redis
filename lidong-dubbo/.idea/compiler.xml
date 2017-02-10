@@ -14,12 +14,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="lidong-dubbo" target="1.5" />
-      <module name="lidong-dubbo-api" target="1.5" />
-      <module name="lidong-dubbo-core" target="1.5" />
-      <module name="lidong-dubbo-model" target="1.5" />
-      <module name="lidong-dubbo-util" target="1.5" />
-      <module name="lidong-dubbo-web" target="1.5" />
+      <module name="lidong-dubbo" target="1.8" />
+      <module name="lidong-dubbo-api" target="1.8" />
+      <module name="lidong-dubbo-core" target="1.8" />
+      <module name="lidong-dubbo-model" target="1.8" />
+      <module name="lidong-dubbo-util" target="1.8" />
+      <module name="lidong-dubbo-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

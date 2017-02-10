@@ -31,7 +31,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.3.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-mongodb:1.9.5.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-redis:1.6.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.data:spring-data-redis:1.8.0.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:4.3.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.4" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.7.2" level="project" />
@@ -61,5 +61,6 @@
     </orderEntry>
     <orderEntry type="library" name="Maven: org.activiti:activiti-spring:5.18.0" level="project" />
     <orderEntry type="library" name="Maven: org.activiti:activiti-engine:5.18.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.session:spring-session:1.2.2.RELEASE" level="project" />
   </component>
 </module>

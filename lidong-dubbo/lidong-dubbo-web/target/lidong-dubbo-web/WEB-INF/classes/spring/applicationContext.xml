@@ -14,12 +14,12 @@
     <context:component-scan base-package="com.lidong.dubbo" />
       
      <!-- 导入redis配置 -->  
-    <import resource="spring-redis.xml"/>
-     <!-- 导入session配置 -->  
-    <import resource="spring-session.xml"/>
+    <import resource="classpath:spring/spring-redis.xml"/>
+     <!-- 导入session配置 -->
+    <import resource="classpath:spring/spring-session.xml"/>
    
      <!-- 导入dubbo配置 -->  
-    <import resource="spring-dubbo.xml"/>
+    <import resource="classpath:spring/spring-dubbo.xml"/>
 
 
 </beans>  
