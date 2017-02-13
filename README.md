@@ -25,4 +25,4 @@ dubbo2.5-spring4-mybastis3.2-springmvc4-mongodb-redis整合
  - spring-activemq 消息中间件
  - spring-rabbitmq 消息中间件
  - spring-aop统一收集web请求到通过log4j保存到mongodb
-
+ - Swagger RESTFUL接口的文档在线生成
