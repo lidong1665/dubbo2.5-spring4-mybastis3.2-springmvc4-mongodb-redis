@@ -106,7 +106,7 @@ public class UserController {
     @ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "Integer")
     @ResponseBody
     @RequestMapping(value = "/getUserForid/{id}", method = RequestMethod.GET)
-    public String getUser(@PathVariable Integer id) {
+    public String getUser(@PathVariable("id") Integer id) {
         try {
             return JsonUtil.bean2json(userService.getUserById(id));
         } catch (Exception e) {
