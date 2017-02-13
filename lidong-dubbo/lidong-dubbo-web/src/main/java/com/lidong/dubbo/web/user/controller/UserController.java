@@ -6,7 +6,8 @@ import com.lidong.dubbo.model.user.User;
 import com.lidong.dubbo.util.FastDFSUtil;
 import com.lidong.dubbo.util.FileUtil;
 import com.lidong.dubbo.util.JsonUtil;
-import com.lidong.dubbo.util.RedisUtil;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -57,7 +58,8 @@ public class UserController {
      * @param model
      * @return
      */
-    @RequestMapping("/userList")
+    @ApiOperation(value = "获取用户列表", notes = "")
+    @RequestMapping(value = "/userList",method = RequestMethod.GET)
     public String user(HttpServletRequest request, Model model){
         List<User> users = null;
         try {
@@ -100,6 +102,18 @@ public class UserController {
         return model;
     }
 
+    @ApiOperation(value = "获取用户详细信息", notes = "根据url的id来获取用户详细信息")
+    @ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "Integer")
+    @ResponseBody
+    @RequestMapping(value = "/getUserForid/{id}", method = RequestMethod.GET)
+    public String getUser(@PathVariable Integer id) {
+        try {
+            return JsonUtil.bean2json(userService.getUserById(id));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 
     /**
      *

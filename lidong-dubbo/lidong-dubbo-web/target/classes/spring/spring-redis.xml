@@ -12,7 +12,7 @@
 		<property name="location" value="classpath:config/redis.properties" />
  </bean>
 
-    <!-- 配置Cluster -->
+    <!--&lt;!&ndash; 配置Cluster &ndash;&gt;-->
     <bean id="redisClusterConfiguration"
           class="org.springframework.data.redis.connection.RedisClusterConfiguration">
         <property name="maxRedirects" value="${redis.cluster.maxRedirects}" />
