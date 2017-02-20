@@ -26,11 +26,11 @@
       <!-- 导入redis配置 -->  
     <import resource="classpath:spring/spring-redis.xml"/>
      <!-- 导入dubbo配置 -->  
-    <import resource="classpath:spring/spring-dubbo.xml"/>
+    <!--<import resource="classpath:spring/spring-dubbo.xml"/>-->
     <!-- 导入quartz配置 -->
-    <!--<import resource="classpath:spring/spring-quartz.xml"/>-->
+    <import resource="classpath:spring/spring-quartz.xml"/>
     <!-- 导入activemq配置 -->
-    <import resource="classpath:spring-activemq.xml"/>
+    <!--<import resource="classpath:spring-activemq.xml"/>-->
     <!-- 导入rabbitmq配置 -->
     <import resource="classpath:spring-rabbitmq.xml"/>
     <!-- 导入rabbitmq配置 -->

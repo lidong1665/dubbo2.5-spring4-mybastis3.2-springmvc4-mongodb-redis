@@ -36,11 +36,11 @@ public class AlertSpittleServiceImp implements IAlertService {
     public JmsTemplate getJmsTemplate() {
         return jmsTemplate;
     }
-    @Resource
-    public void setJmsTemplate(JmsTemplate jmsTemplate) {
-        this.jmsTemplate = jmsTemplate;
-    }
-
+//    @Resource
+//    public void setJmsTemplate(JmsTemplate jmsTemplate) {
+//        this.jmsTemplate = jmsTemplate;
+//    }
+//
 
 
     /**
@@ -50,12 +50,12 @@ public class AlertSpittleServiceImp implements IAlertService {
      */
     @Override
     public void sendSpittleAlert(final User user) {
-        logger.info("----------生产者发送消息-------------");
-        jmsTemplate.send("spittle.alert.queue", new MessageCreator() {
-            public Message createMessage(Session session) throws JMSException {
-                return session.createTextMessage(user.getName());
-            }
-        });
+//        logger.info("----------生产者发送消息-------------");
+//        jmsTemplate.send("spittle.alert.queue", new MessageCreator() {
+//            public Message createMessage(Session session) throws JMSException {
+//                return session.createTextMessage(user.getName());
+//            }
+//        });
 
     }
 }

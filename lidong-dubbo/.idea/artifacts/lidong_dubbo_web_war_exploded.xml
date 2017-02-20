@@ -53,6 +53,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-messaging:4.3.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.quartz-scheduler:quartz:2.2.3" />
           <element id="library" level="project" name="Maven: c3p0:c3p0:0.9.1.1" />
+          <element id="library" level="project" name="Maven: org.quartz-scheduler:quartz-jobs:2.2.3" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-mongodb:1.9.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:1.12.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.21" />

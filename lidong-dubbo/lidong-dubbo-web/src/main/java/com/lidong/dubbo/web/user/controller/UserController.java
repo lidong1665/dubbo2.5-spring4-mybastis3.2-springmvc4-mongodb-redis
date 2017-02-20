@@ -106,7 +106,11 @@ public class UserController {
     @ApiImplicitParam(name = "id", value = "用户ID", required = true, dataType = "Integer")
     @ResponseBody
     @RequestMapping(value = "/getUserForid/{id}", method = RequestMethod.GET)
-    public String getUser(@PathVariable("id") Integer id) {
+    public String getUser(@PathVariable("id") Integer id,HttpSession httpSession) {
+
+        User user = (User) httpSession.getAttribute("user");
+        System.out.print("------");
+        System.out.print("00000"+user.getName());
         try {
             return JsonUtil.bean2json(userService.getUserById(id));
         } catch (Exception e) {
@@ -143,7 +147,6 @@ public class UserController {
      * @param model
      * @return
      */
-    @ResponseBody
     @RequestMapping("/login")
     public String login(HttpServletRequest request,Model model,HttpSession httpSession){
         String username = request.getParameter("username");
@@ -160,7 +163,7 @@ public class UserController {
             e.printStackTrace();
         }
         logger.info("result="+hello);
-        return JsonUtil.bean2json(user);
+         return "redirect:userList";
     }
 
 

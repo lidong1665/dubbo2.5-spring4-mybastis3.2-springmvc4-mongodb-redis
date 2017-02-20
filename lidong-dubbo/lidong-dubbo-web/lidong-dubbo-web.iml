@@ -71,6 +71,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-messaging:4.3.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.quartz-scheduler:quartz:2.2.3" level="project" />
     <orderEntry type="library" name="Maven: c3p0:c3p0:0.9.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.quartz-scheduler:quartz-jobs:2.2.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-mongodb:1.9.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:1.12.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.21" level="project" />

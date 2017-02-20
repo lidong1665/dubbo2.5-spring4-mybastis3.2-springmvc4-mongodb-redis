@@ -6,14 +6,21 @@
           http://www.springframework.org/schema/data/mongo/spring-mongo.xsd   
           http://www.springframework.org/schema/beans   
           http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
-          
+    <!--所有节点-->
+    <!--<mongo:mongo id="replicaSetMongo" replica-set="192.168.1.23:27017,192.168.1.23:27018,192.168.1.23:27019">-->
+        <!--&lt;!&ndash; 每个IP的连接数&ndash;&gt;-->
+        <!--<mongo:options connections-per-host="1000"-->
+                       <!--threads-allowed-to-block-for-connection-multiplier="50"-->
+                       <!--auto-connect-retry="true"/>-->
+    <!--</mongo:mongo>-->
+
          
    <!-- spring连接mongodb数据库的配置 -->  
-    <mongo:mongo-client host="${host}" port="${port}"  id="mongo">    
-       <mongo:client-options write-concern="SAFE"/>    
-    </mongo:mongo-client>   
+    <mongo:mongo-client host="${host}" port="${port}"  id="mongo">
+       <mongo:client-options write-concern="SAFE"/>
+    </mongo:mongo-client>
   
-    <mongo:db-factory  id="mongoDbFactory" dbname="${dbName}" mongo-ref="mongo" />    
+    <mongo:db-factory  id="mongoDbFactory" dbname="${dbName}" mongo-ref="mongo" />
   
     <!-- 只要使用这个调用相应的方法操作 -->  
     <bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">    
