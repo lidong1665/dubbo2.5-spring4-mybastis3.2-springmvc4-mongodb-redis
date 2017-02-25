@@ -15,7 +15,7 @@
       
      <!-- 导入redis配置 -->
     <import resource="classpath:spring/spring-redis.xml"/>
-     <!-- 导入session配置 -->
+     <!--&lt;!&ndash; 导入session配置 &ndash;&gt;-->
     <import resource="classpath:spring/spring-session.xml"/>
 
      <!-- 导入dubbo配置 -->  

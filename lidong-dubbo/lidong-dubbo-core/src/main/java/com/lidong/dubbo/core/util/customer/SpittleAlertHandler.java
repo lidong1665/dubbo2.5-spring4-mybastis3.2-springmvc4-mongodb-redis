@@ -20,7 +20,7 @@ import javax.jms.*;
  * @邮箱:lidong1665@163.com
  */
 @Component
-@MessageDriven
+//@MessageDriven
 public class SpittleAlertHandler implements MessageListener{
 
     private Logger logger = LoggerFactory.getLogger(SpittleAlertHandler.class);

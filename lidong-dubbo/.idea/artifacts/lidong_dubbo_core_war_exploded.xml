@@ -143,6 +143,7 @@
           <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:1.6.2.RELEASE" />
           <element id="library" level="project" name="fastdfs-client-java-1.25" />
           <element id="library" level="module" name="JUnit4" module-name="lidong-dubbo-core" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.21" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="lidong-dubbo-core/web/Web" />

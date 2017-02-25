@@ -1,0 +1,1308 @@
+2017-02-23 10:40:14,202 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 127.0.0.1
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 10:45:14,226 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 10:50:14,243 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 10:55:14,259 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 11:00:14,280 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 11:05:14,304 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 11:10:14,325 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 11:15:14,346 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 11:20:14,369 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 11:25:14,387 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 11:30:14,404 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 11:35:14,421 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 11:40:14,437 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 11:45:14,455 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 11:50:14,470 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 11:55:14,487 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 12:00:14,508 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 12:05:14,524 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 12:10:14,541 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 12:15:14,561 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 12:41:58,321 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 12:46:58,336 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 12:51:58,353 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 12:56:58,375 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 13:01:59,633 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 13:06:59,652 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 13:11:59,672 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 13:16:59,694 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 13:21:59,705 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 13:34:47,418 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 13:39:47,435 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 13:44:47,451 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 13:49:47,473 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 13:54:47,490 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 13:59:47,508 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 14:04:47,530 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 14:09:47,552 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 14:14:47,573 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 14:16:42,708 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 14:16:44,008 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 14:16:45,392 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 14:19:47,596 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 14:23:16,097 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 14:24:47,619 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 14:26:31,430 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 14:26:32,726 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 14:26:33,921 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 14:26:35,895 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 14:29:47,636 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 14:34:47,654 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 14:39:47,676 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 14:44:47,690 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 14:49:47,708 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 14:54:47,734 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 14:59:47,764 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 15:04:48,172 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 15:09:48,210 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 15:14:48,236 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 15:19:48,257 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 15:24:48,283 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 15:29:48,303 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 15:34:48,320 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 15:39:48,345 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 15:44:48,368 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 15:49:48,393 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 15:54:48,414 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 15:59:48,443 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 16:04:48,464 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 16:09:48,488 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 16:14:48,513 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 16:15:27,530 [New I/O server worker #1-1] WARN  com.alibaba.dubbo.remoting.transport.AbstractServer (AbstractServer.java:197) -  [DUBBO] All clients has discontected from /192.168.1.225:7070. You can graceful shutdown now., dubbo version: 2.5.3, current host: 192.168.1.225
+2017-02-23 16:19:48,533 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 16:24:48,553 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 16:29:05,430 [New I/O server worker #1-3] WARN  com.alibaba.dubbo.remoting.transport.AbstractServer (AbstractServer.java:197) -  [DUBBO] All clients has discontected from /192.168.1.225:7070. You can graceful shutdown now., dubbo version: 2.5.3, current host: 192.168.1.225
+2017-02-23 16:29:48,573 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 16:34:48,593 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 16:34:48,983 [New I/O server worker #1-5] WARN  com.alibaba.dubbo.remoting.transport.AbstractServer (AbstractServer.java:197) -  [DUBBO] All clients has discontected from /192.168.1.225:7070. You can graceful shutdown now., dubbo version: 2.5.3, current host: 192.168.1.225
+2017-02-23 16:39:48,617 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 16:41:26,456 [New I/O server worker #1-3] WARN  com.alibaba.dubbo.remoting.transport.AbstractServer (AbstractServer.java:197) -  [DUBBO] All clients has discontected from /192.168.1.225:7070. You can graceful shutdown now., dubbo version: 2.5.3, current host: 192.168.1.225
+2017-02-23 16:43:41,498 [DubboSaveRegistryCache-thread-1] WARN  com.alibaba.dubbo.registry.support.AbstractRegistry (AbstractRegistry.java:221) -  [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file /Users/lidong/.dubbo/dubbo-registry-127.0.0.1.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 192.168.1.225
+java.io.IOException: Can not lock the registry cache file /Users/lidong/.dubbo/dubbo-registry-127.0.0.1.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 16:43:41,555 [DubboSaveRegistryCache-thread-1] WARN  com.alibaba.dubbo.registry.support.AbstractRegistry (AbstractRegistry.java:221) -  [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file /Users/lidong/.dubbo/dubbo-registry-127.0.0.1.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 192.168.1.225
+java.io.IOException: Can not lock the registry cache file /Users/lidong/.dubbo/dubbo-registry-127.0.0.1.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 16:44:34,032 [DubboSaveRegistryCache-thread-1] WARN  com.alibaba.dubbo.registry.support.AbstractRegistry (AbstractRegistry.java:221) -  [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file /Users/lidong/.dubbo/dubbo-registry-127.0.0.1.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 192.168.1.225
+java.io.IOException: Can not lock the registry cache file /Users/lidong/.dubbo/dubbo-registry-127.0.0.1.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 16:44:34,033 [DubboSaveRegistryCache-thread-1] WARN  com.alibaba.dubbo.registry.support.AbstractRegistry (AbstractRegistry.java:221) -  [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file /Users/lidong/.dubbo/dubbo-registry-127.0.0.1.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 192.168.1.225
+java.io.IOException: Can not lock the registry cache file /Users/lidong/.dubbo/dubbo-registry-127.0.0.1.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 16:44:34,033 [DubboSaveRegistryCache-thread-1] WARN  com.alibaba.dubbo.registry.support.AbstractRegistry (AbstractRegistry.java:221) -  [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file /Users/lidong/.dubbo/dubbo-registry-127.0.0.1.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 192.168.1.225
+java.io.IOException: Can not lock the registry cache file /Users/lidong/.dubbo/dubbo-registry-127.0.0.1.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 16:44:34,035 [DubboSaveRegistryCache-thread-1] WARN  com.alibaba.dubbo.registry.support.AbstractRegistry (AbstractRegistry.java:221) -  [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file /Users/lidong/.dubbo/dubbo-registry-127.0.0.1.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 192.168.1.225
+java.io.IOException: Can not lock the registry cache file /Users/lidong/.dubbo/dubbo-registry-127.0.0.1.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 16:44:34,054 [DubboSaveRegistryCache-thread-1] WARN  com.alibaba.dubbo.registry.support.AbstractRegistry (AbstractRegistry.java:221) -  [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file /Users/lidong/.dubbo/dubbo-registry-127.0.0.1.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 192.168.1.225
+java.io.IOException: Can not lock the registry cache file /Users/lidong/.dubbo/dubbo-registry-127.0.0.1.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 16:44:48,640 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 16:49:48,659 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 16:50:48,197 [New I/O server worker #1-4] WARN  com.alibaba.dubbo.remoting.transport.AbstractServer (AbstractServer.java:197) -  [DUBBO] All clients has discontected from /192.168.1.225:7070. You can graceful shutdown now., dubbo version: 2.5.3, current host: 192.168.1.225
+2017-02-23 16:54:28,288 [New I/O server worker #1-1] WARN  com.alibaba.dubbo.remoting.transport.AbstractServer (AbstractServer.java:197) -  [DUBBO] All clients has discontected from /192.168.1.225:7070. You can graceful shutdown now., dubbo version: 2.5.3, current host: 192.168.1.225
+2017-02-23 16:54:48,679 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 16:59:48,698 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 17:04:48,717 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 17:09:48,737 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 17:14:48,754 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 17:16:19,704 [New I/O server worker #1-4] WARN  com.alibaba.dubbo.remoting.transport.AbstractServer (AbstractServer.java:197) -  [DUBBO] All clients has discontected from /192.168.1.225:7070. You can graceful shutdown now., dubbo version: 2.5.3, current host: 192.168.1.225
+2017-02-23 17:19:48,776 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 17:24:48,792 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 17:29:48,809 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 17:34:48,827 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 17:39:48,843 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 17:44:48,857 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 17:49:48,871 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 17:54:48,892 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 17:57:36,309 [New I/O server worker #1-5] WARN  com.alibaba.dubbo.remoting.transport.AbstractServer (AbstractServer.java:197) -  [DUBBO] All clients has discontected from /192.168.1.225:7070. You can graceful shutdown now., dubbo version: 2.5.3, current host: 192.168.1.225
+2017-02-23 17:59:48,914 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 18:04:48,939 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 18:07:31,355 [New I/O server worker #1-2] WARN  com.alibaba.dubbo.remoting.transport.AbstractServer (AbstractServer.java:197) -  [DUBBO] All clients has discontected from /192.168.1.225:7070. You can graceful shutdown now., dubbo version: 2.5.3, current host: 192.168.1.225
+2017-02-23 18:09:48,963 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 18:13:46,172 [DubboSaveRegistryCache-thread-1] WARN  com.alibaba.dubbo.registry.support.AbstractRegistry (AbstractRegistry.java:221) -  [DUBBO] Failed to save registry store file, cause: Can not lock the registry cache file /Users/lidong/.dubbo/dubbo-registry-127.0.0.1.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties, dubbo version: 2.5.3, current host: 192.168.1.225
+java.io.IOException: Can not lock the registry cache file /Users/lidong/.dubbo/dubbo-registry-127.0.0.1.cache, ignore and retry later, maybe multi java process use the file, please config: dubbo.registry.file=xxx.properties
+	at com.alibaba.dubbo.registry.support.AbstractRegistry.doSaveProperties(AbstractRegistry.java:193)
+	at com.alibaba.dubbo.registry.support.AbstractRegistry$SaveProperties.run(AbstractRegistry.java:150)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 18:14:48,983 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 18:17:42,979 [New I/O server worker #1-4] WARN  com.alibaba.dubbo.remoting.transport.AbstractServer (AbstractServer.java:197) -  [DUBBO] All clients has discontected from /192.168.1.225:7070. You can graceful shutdown now., dubbo version: 2.5.3, current host: 192.168.1.225
+2017-02-23 18:19:49,005 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 18:24:49,028 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 18:27:34,193 [New I/O server worker #1-1] WARN  com.alibaba.dubbo.remoting.transport.AbstractServer (AbstractServer.java:197) -  [DUBBO] All clients has discontected from /192.168.1.225:7070. You can graceful shutdown now., dubbo version: 2.5.3, current host: 192.168.1.225
+2017-02-23 18:29:49,050 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 18:34:49,068 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 18:39:49,086 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 18:44:49,106 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 18:49:49,127 [DubboMonitorTimer-thread-1] ERROR com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2 (SimpleMonitorService.java:139) -  [DUBBO] Unexpected error occur at draw stat chart, cause: null, dubbo version: 2.5.3, current host: 192.168.1.225
+java.lang.NullPointerException
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.draw(SimpleMonitorService.java:231)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService.access$300(SimpleMonitorService.java:64)
+	at com.alibaba.dubbo.monitor.simple.SimpleMonitorService$2.run(SimpleMonitorService.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-23 18:50:47,548 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 18:50:49,364 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 18:50:51,454 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 18:50:52,831 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 18:50:54,229 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 18:50:56,253 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 18:50:58,077 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 18:50:59,365 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 18:51:01,365 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 18:51:02,798 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 18:51:04,136 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 18:51:06,184 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 18:51:07,822 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 18:51:09,384 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 18:51:10,525 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 18:51:12,254 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2017-02-23 18:51:13,634 [main-SendThread(localhost:2181)] WARN  org.apache.zookeeper.ClientCnxn$SendThread (ClientCnxn.java:1161) - Session 0x15a68d2af42000f for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)

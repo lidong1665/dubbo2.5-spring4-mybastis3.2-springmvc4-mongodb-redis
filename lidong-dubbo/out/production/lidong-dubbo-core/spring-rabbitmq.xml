@@ -2,11 +2,11 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rabbit="http://www.springframework.org/schema/rabbit"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+     http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
      http://www.springframework.org/schema/beans
-     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+     http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
      http://www.springframework.org/schema/rabbit
-     http://www.springframework.org/schema/rabbit/spring-rabbit-1.6.xsd">
+     http://www.springframework.org/schema/rabbit/spring-rabbit-1.7.xsd">
 
 
     <!--配置connection-factory，指定连接rabbit server参数 -->
@@ -14,20 +14,29 @@
                                username="${rabbit_username}"
                                password="${rabbit_password}"
                                host="${rabbit_host}"
-                               port="${rabbit_port}" />
-
-    <!--定义rabbit template用于数据的接收和发送 -->
-    <rabbit:template id="amqpTemplate"  connection-factory="rabbitConnectionFactory"
-                     exchange="exchangeTest" />
+                               port="${rabbit_port}"/>
 
     <!--通过指定下面的admin信息，当前producer中的exchange和queue会在rabbitmq服务器上自动生成 -->
-    <rabbit:admin connection-factory="rabbitConnectionFactory" />
+    <rabbit:admin id="connectAdmin" connection-factory="rabbitConnectionFactory" />
 
-    <!--定义queue -->
-    <rabbit:queue name="queueTest" durable="true" auto-delete="false" exclusive="false" />
+    <bean id="taskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+        <property name="corePoolSize" value="3"/>
+        <property name="maxPoolSize" value="5"/>
+        <property name="queueCapacity" value="15"/>
+    </bean>
+
+    <!--定义queue  配置队列的信息-->
+    <rabbit:queue name="queueTest"
+                  durable="true"
+                  auto-delete="false"
+                  exclusive="false"
+                  declared-by="connectAdmin"/>
 
     <!-- 定义direct exchange，绑定queueTest -->
-    <rabbit:direct-exchange name="exchangeTest" durable="true" auto-delete="false">
+    <rabbit:direct-exchange name="exchangeTest"
+                            durable="true"
+                            auto-delete="false"
+                            declared-by="connectAdmin">
         <rabbit:bindings>
             <rabbit:binding
                     queue="queueTest"
@@ -36,14 +45,84 @@
         </rabbit:bindings>
     </rabbit:direct-exchange>
 
+
+    <!-- 创建rabbitTemplate 消息模板类 -->
+
+    <rabbit:template id="rabbitTemplate" connection-factory="rabbitConnectionFactory"
+                     exchange="exchangeTest"/>
+
+
+
+    <bean id="jsonMessageConverter" class="org.springframework.amqp.support.converter.Jackson2JsonMessageConverter" />
+
     <!-- 消息接收者 -->
     <bean id="messageReceiver" class="com.lidong.dubbo.core.util.customer.MessageConsumer"></bean>
 
     <!-- queue litener  观察 监听模式 当有消息到达时会通知监听在对应的队列上的监听对象-->
+    <!-- acknowledge="manual" 意为表示该消费者的ack方式为手动  实现异常消息回滚-->
+    <!--<rabbit:listener-container-->
+            <!--connection-factory="rabbitConnectionFactory"-->
+            <!--acknowledge="manual"-->
+            <!--channel-transacted="false"-->
+            <!--message-converter="jsonMessageConverter">-->
+        <!--<rabbit:listener queues="queueTest"-->
+                         <!--ref="messageReceiver"  method="onMessage"/>-->
+    <!--</rabbit:listener-container>-->
+
+
+
+    <!-- 延迟消息start -->
+    <!--配置connection-factory2，指定连接rabbit server参数 -->
+    <!--<rabbit:connection-factory id="rabbitConnectionFactory2"-->
+                               <!--username="${rabbit_username}"-->
+                               <!--password="${rabbit_password}"-->
+                               <!--host="${rabbit_host}"-->
+                               <!--port="${rabbit_port}"/>-->
+
+    <!--<rabbit:admin id="connectAdmin2" connection-factory="rabbitConnectionFactory2" />-->
+
+
+
+
+    <rabbit:topic-exchange name="delayChangeTest"
+                           declared-by="connectAdmin"
+                           delayed="true">
+        <rabbit:bindings>
+            <rabbit:binding queue="delay_queue"
+                            pattern="order.delay.notify"
+            />
+        </rabbit:bindings>
+    </rabbit:topic-exchange>
+
+
+    <!--定义queue  配置延迟队列的信息-->
+    <rabbit:queue name="delay_queue"
+                  durable="true"
+                  auto-declare="true"
+                  auto-delete="false"
+                  declared-by="connectAdmin">
+    </rabbit:queue>
+
+
+    <rabbit:template id="rabbitTemplate2" connection-factory="rabbitConnectionFactory"
+                     exchange="delayChangeTest"/>
+
+
+    <bean id="orderConsumer" class="com.lidong.dubbo.core.util.customer.OrderConsumer"></bean>
+
+
     <rabbit:listener-container
-            connection-factory="rabbitConnectionFactory">
+            connection-factory="rabbitConnectionFactory"
+            acknowledge="manual"
+            channel-transacted="false"
+            message-converter="jsonMessageConverter">
+
+        <rabbit:listener queues="delay_queue"
+                         ref="orderConsumer"
+                         method="onMessage"/>
         <rabbit:listener queues="queueTest"
-                         ref="messageReceiver"/>
+        ref="messageReceiver"  method="onMessage"/>
     </rabbit:listener-container>
+
 
 </beans>

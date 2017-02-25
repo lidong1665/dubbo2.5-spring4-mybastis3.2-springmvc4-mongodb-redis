@@ -64,5 +64,7 @@
     <orderEntry type="library" name="Maven: org.springframework.session:spring-session:1.2.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context-support:4.3.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.quartz-scheduler:quartz:2.2.3" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.amqp:spring-rabbit:1.7.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.rabbitmq:amqp-client:4.0.0" level="project" />
   </component>
 </module>

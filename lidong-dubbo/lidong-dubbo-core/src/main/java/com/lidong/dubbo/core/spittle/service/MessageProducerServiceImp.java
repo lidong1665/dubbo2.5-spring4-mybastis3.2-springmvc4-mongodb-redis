@@ -3,10 +3,14 @@ package com.lidong.dubbo.core.spittle.service;
 import com.lidong.dubbo.api.spittle.service.IMessageProducer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.amqp.core.AmqpTemplate;
+import org.springframework.amqp.AmqpException;
+import org.springframework.amqp.core.*;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * @项目名称:lidong-dubbo
@@ -26,12 +30,40 @@ public class MessageProducerServiceImp implements IMessageProducer {
 
 
     @Resource
-    private AmqpTemplate amqpTemplate;
+    private RabbitTemplate rabbitTemplate;
+
+    @Resource
+    private RabbitTemplate rabbitTemplate2;
 
     @Override
     public void sendMessage(Object message) {
         logger.info("to send message:{}",message);
-        amqpTemplate.convertAndSend("queueTestKey",message);
+
+        rabbitTemplate.convertAndSend("queueTestKey", message, new MessagePostProcessor() {
+            @Override
+            public Message postProcessMessage(Message message) throws AmqpException {
+                return message;
+            }
+        });
+        final int xdelay= 300*1000;
+        SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+        //发送延迟消息
+        rabbitTemplate2.convertAndSend("order.delay.notify", message,
+                new MessagePostProcessor() {
+
+                    @Override
+                    public Message postProcessMessage(Message message)
+                            throws AmqpException {
+                        //设置消息持久化
+                        message.getMessageProperties().setDeliveryMode(MessageDeliveryMode.PERSISTENT);
+                        //设置延迟时间（5分钟后执行）
+                        message.getMessageProperties().setDelay(xdelay);
+                        logger.info("----"+sf.format(new Date()) + " Delay sent.");
+
+                        return message;
+                    }
+                });
     }
 
 
